@@ -1,0 +1,50 @@
+/*
+ * css performance ain't off the charts in this one unfortunately, but the styles are accurate to mock.
+ */
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+}
+.mega-nav-trigger > .icon.icon-category {
+  height: 24px;
+  width: 25px;
+}
+.icon.icon-reading-foundations {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") 2px 0px;
+  background-position-y: 0;
+}
+.icon.icon-reading-comprehension {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -32px 2px;
+}
+.icon.icon-language {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -69px 0px;
+}
+.icon.icon-writing {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -106px 0px;
+}
+.icon.icon-math {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -141px 0px;
+}
+.icon.icon-science {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -173px 0px;
+}
+.icon.icon-social-studies {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -204px 0px;
+}
+.icon.icon-teacher-resources {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -236px 0;
+}
+.icon.icon-parent-resources {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -269px 0px;
+}
+
+.icon.icon-caret {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -300px -6px;
+  width: 8px;
+  height: 13px;
+}
+
+/*# sourceMappingURL=sprites.css.map */

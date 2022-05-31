@@ -1,0 +1,231 @@
+/* icons */
+.theme-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e6cb4+0,225086+100 */
+
+  background: #2e6cb4;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #2e6cb4 0%, #225086 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2e6cb4', endColorstr='#225086', GradientType=0);
+  /* IE6-9 */
+
+}
+.theme-dropshadow {
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 0px #ffffff;
+}
+/* icons */
+.not-dropbox {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -1px -1px;
+  width: 38px;
+  height: 35px;
+}
+.mutha-trucka {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -40px -1px;
+  width: 40px;
+  height: 32px;
+}
+.icon-calendar {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -82px -1px;
+  width: 35px;
+  height: 34px;
+}
+.ti-test.var-1 .value-messaging {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e6cb4+0,225086+100 */
+
+  background: #2e6cb4;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #2e6cb4 0%, #225086 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2e6cb4', endColorstr='#225086', GradientType=0);
+  /* IE6-9 */
+
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 0px #ffffff;
+  padding: 16px 0;
+  display: inline-block;
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-bottom: -1px;
+}
+.ti-test.var-1 .value-messaging .col-4 {
+  width: 33.3%;
+  float: left;
+  width: 33.3%;
+  float: left;
+  padding: 0 5px 0 15px;
+  box-sizing: border-box;
+}
+.ti-test.var-1 .value-messaging .col-4 strong,
+.ti-test.var-1 .value-messaging .col-4 a {
+  margin-left: 5px;
+  float: left;
+  text-align: left;
+  margin-left: 14px;
+  margin-top: 2px;
+}
+.ti-test.var-1 .value-messaging .col-4 strong {
+  text-transform: uppercase;
+  font-family: "open_sanssemibold", Arial, sans-serif;
+  font-size: 13px;
+  min-width: 75%;
+  margin-top: 5px;
+  color: #fff;
+}
+.ti-test.var-1 .value-messaging .col-4 a {
+  font-family: "open_sansregular", Arial, sans-serif;
+  font-size: 11px;
+  margin-top: 3px;
+  padding: 6px 0 0;
+  padding-top: 1px;
+  border-bottom: 1px solid #b2ceee;
+  cursor: pointer;
+  color: #b2ceee;
+  transition: color 3s ease-in-out;
+  transition: border-color 3s ease-in-out;
+}
+.ti-test.var-1 .value-messaging .col-4 a:hover {
+  color: #fff;
+  border-color: #ff;
+  transition: color, border-color 3s ease-in-out;
+  cursor: pointer;
+}
+.ti-test.var-1 .value-messaging .col-4 .icon {
+  display: block;
+  float: left;
+  margin-top: 3px;
+}
+.ti-test.var-1 .value-messaging .col-4 .partial-border {
+  border-right: 1px solid white;
+  display: inline-block;
+}
+.ti-test.var-1 #delivery .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -1px -1px;
+  width: 38px;
+  height: 35px;
+  margin-left: 2px;
+  margin-right: -2px;
+}
+.ti-test.var-1 #hassle-free {
+  padding-left: 29px;
+}
+.ti-test.var-1 #hassle-free .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -40px -1px;
+  width: 40px;
+  height: 32px;
+}
+.ti-test.var-1 #hassle-free .partial-border {
+  min-width: 228px;
+}
+.ti-test.var-1 #auto-ship .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -82px -1px;
+  width: 35px;
+  height: 34px;
+}
+.ti-test.var-1 #auto-ship .grip {
+  margin-left: 23px;
+}
+.ti-test.var-1 .category-view {
+  padding-top: 5px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.ti-test.var-1 .modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 39, 36, 0.25);
+  left: 0;
+  top: 0;
+  z-index: 451;
+  /* there is a chat icon that is at 450*/
+
+}
+.ti-test.var-1 .modal {
+  display: block;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 650px;
+  background-color: white;
+  padding: 20px;
+}
+.ti-test.var-1 .modal.shipping .container-3 {
+  margin-top: 0px;
+}
+.ti-test.var-1 .modal.shipping img {
+  width: auto;
+  height: 200px;
+  float: right;
+  height: 365px;
+}
+.ti-test.var-1 .modal.shipping .col-content {
+  height: 100%;
+}
+.ti-test.var-1 .modal.shipping .col-main {
+  height: 100%;
+}
+.ti-test.var-1 .modal p {
+  margin: 20px 0;
+}
+.ti-test.var-1 .modal .modal-close {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.ti-test.var-1 .modal .modal-close:before,
+.ti-test.var-1 .modal .modal-close:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #000;
+  border-radius: 5px;
+  height: 4px;
+  margin-top: -2px;
+}
+.ti-test.var-1 .modal .modal-close:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 5px;
+}
+.ti-test.var-1 .modal .modal-close:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 5px;
+}
+.ti-test.var-1 .modal .modal-close:active:before,
+.ti-test.var-1 .modal .modal-close:active:after {
+  background-color: red;
+}

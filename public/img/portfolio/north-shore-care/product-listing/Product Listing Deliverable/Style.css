@@ -1,0 +1,387 @@
+  /* icons */
+.theme-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e6cb4+0,225086+100 */
+
+  background: #2e6cb4;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #2e6cb4 0%, #225086 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2e6cb4', endColorstr='#225086', GradientType=0);
+  /* IE6-9 */
+
+}
+.theme-dropshadow {
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 0px #ffffff;
+}
+/* icons */
+.not-dropbox {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -1px -1px;
+  width: 38px;
+  height: 35px;
+}
+.mutha-trucka {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -40px -1px;
+  width: 40px;
+  height: 32px;
+}
+.icon-calendar {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -82px -1px;
+  width: 35px;
+  height: 34px;
+}
+.value-messaging {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e6cb4+0,225086+100 */
+
+  background: #2e6cb4;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #2e6cb4 0%, #225086 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #2e6cb4 0%, #225086 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2e6cb4', endColorstr='#225086', GradientType=0);
+  /* IE6-9 */
+
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 0px #ffffff;
+  padding: 16px 0;
+  display: inline-block;
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-bottom: -1px;
+}
+.value-messaging .col-4 {
+  width: 33.3%;
+  float: left;
+  width: 33.3%;
+  float: left;
+  padding: 0 5px 0 15px;
+  box-sizing: border-box;
+}
+.value-messaging .col-4 strong,
+.value-messaging .col-4 a {
+  margin-left: 5px;
+  float: left;
+  text-align: left;
+  margin-left: 14px;
+  margin-top: 2px;
+}
+.value-messaging .col-4 strong {
+  text-transform: uppercase;
+  font-family: "open_sanssemibold", Arial, sans-serif;
+  font-size: 13px;
+  min-width: 75%;
+  margin-top: 5px;
+  color: #fff;
+}
+.value-messaging .col-4 a {
+  font-family: "open_sansregular", Arial, sans-serif;
+  font-size: 13px;
+  margin-top: 3px;
+  padding: 6px 0 0;
+  padding-top: 1px;
+  border-bottom: 1px solid #b2ceee;
+  cursor: pointer;
+  color: #b2ceee;
+  transition: color 3s ease-in-out;
+  transition: border-color 3s ease-in-out;
+}
+.value-messaging .col-4 a:hover {
+  color: #fff;
+  border-color: #ff;
+  transition: color, border-color 3s ease-in-out;
+  cursor: pointer;
+}
+.value-messaging .col-4 .icon {
+  display: block;
+  float: left;
+  margin-top: 3px;
+}
+.value-messaging .col-4 .partial-border {
+  border-right: 1px solid white;
+  display: inline-block;
+}
+#delivery .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -1px -1px;
+  width: 38px;
+  height: 35px;
+  margin-left: -5px;
+  margin-right: -2px;
+}
+#hassle-free {
+  padding-left: 29px;
+}
+#hassle-free .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -40px -1px;
+  width: 40px;
+  height: 32px;
+}
+#hassle-free .partial-border {
+  min-width: 228px;
+}
+#auto-ship .icon {
+  background: url('https://s3.amazonaws.com/clientinstalls/North+Shore+Care/nsc-value-sprite.png') no-repeat -82px -1px;
+  width: 35px;
+  height: 34px;
+}
+#auto-ship .grip {
+  margin-left: 23px;
+}
+.category-view {
+  padding-top: 5px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 39, 36, 0.25);
+  left: 0;
+  top: 0;
+  z-index: 451;
+  /* there is a chat icon that is at 450*/
+
+}
+.modal {
+  display: block;
+  margin: 20px auto;
+  max-width: 800px;
+  max-height: 650px;
+  background-color: white;
+  padding: 20px;
+}
+.modal.shipping .container-3 {
+  margin-top: 0px;
+}
+.modal.shipping img {
+  width: auto;
+  height: 200px;
+  float: right;
+  height: 365px;
+}
+.modal.shipping .col-content {
+  height: 100%;
+}
+.modal.shipping .col-main {
+  height: 100%;
+}
+.modal p {
+  margin: 20px 0;
+}
+.modal .modal-close {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.modal .modal-close:before,
+.modal .modal-close:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #000;
+  border-radius: 5px;
+  height: 4px;
+  margin-top: -2px;
+}
+.modal .modal-close:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-radius: 5px;
+}
+.modal .modal-close:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 5px;
+}
+.modal .modal-close:active:before,
+.modal .modal-close:active:after {
+  background-color: red;
+}
+/* variation 2 : made in less */
+.ti-test.var-2 .bv-rating-label.bv-text-link {
+  font-size: 11px!important;
+  position: relative !important;
+  /* font appears smaller in demo*/
+
+}
+.ti-test.var-2 .bv-rating-label.bv-text-link:after {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #f48720;
+  content: "";
+  position: absolute;
+}
+.ti-test.var-2 .bv-rating-label.bv-text-link.no-reviews:after {
+  display: none;
+}
+.ti-test.var-2 .bv-rating-label.bv-text-link.bv-loading:not(.bv-loaded):after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  margin: -15px 0 -15px;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: rotate-forever;
+  -moz-animation-name: rotate-forever;
+  animation-name: rotate-forever;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  height: 8px;
+  width: 8px;
+  border: 2px solid #f98901;
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+}
+.ti-test.var-2 #products-list .bv-rating-label.bv-text-link:after {
+  right: -13px !important;
+  top: 6px;
+}
+.ti-test.var-2 #products-list .bv-rating-label.bv-text-link.bv-loading:not(.bv-loaded):after {
+  margin-left: 0px;
+  top: 17px;
+}
+.ti-test.var-2 .col-4-grid .bv-rating-label.bv-text-link:after {
+  right: -13px;
+  top: 7px;
+}
+.ti-test.var-2 .col-4-grid .bv-rating-label.bv-text-link.bv-loading:not(.bv-loaded):after {
+  margin-left: 13px;
+  margin-top: -7px;
+}
+.ti-test.var-2 .bv-popup-caption {
+  font-family: 'open_sanssemibold', Arial, sans-serif !important;
+  font-size: 13px !important;
+  padding: 10px 10px 5px 12px !important;
+  display: block !important;
+  font-weight: 400;
+}
+.ti-test.var-2 .bv-stars-container.tooltip-show {
+  /* this was added so that mouse leave triggers when it should. */
+
+  padding-bottom: 6px !important;
+  margin-bottom: -6px !important;
+}
+.ti-test.var-2 .bv-inline-rating-container .bv-popup.bv-popup-histogram {
+  z-index: 99 !important;
+  position: absolute !important;
+  left: -3px !important;
+  top: 25px !important;
+}
+.ti-test.var-2 .bv-inline-rating-container .bv-popup.bv-popup-histogram {
+  top: 45px !important;
+  opacity: 0.0 !important;
+  transition-duration: 300ms !important;
+}
+.ti-test.var-2 .tooltip-show .bv-popup.bv-popup-histogram.bv-loaded {
+  top: 25px !important;
+  opacity: 1.0 !important;
+}
+.ti-test.var-2 .bv-content-secondary-ratings-container {
+  height: 15px !important;
+}
+.ti-test.var-2 .bv-inline-histogram-ratings-bar {
+  width: 75% !important;
+}
+.ti-test.var-2 .bv-content-secondary-ratings-value {
+  height: 100% !important;
+}
+.ti-test.var-2 .bv-popup-histogram-ratings {
+  width: 216px!important;
+}
+.ti-test.var-2 .bv-cleanslate .bv-core-container-190 .bv-popup-histogram {
+  padding-top: 0px !important;
+}
+.ti-test.var-2 .bv-cleanslate .bv-core-container-190 .bv-popup-histogram-ratings table {
+  margin: 0 auto 12px!important;
+}
+/* utilities */
+@-webkit-keyframes rotate-forever {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate-forever {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-forever {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

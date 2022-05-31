@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 8]><html class="ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 10]><html class="ie10" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![endif]-->
+<!--[if gt IE 10]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+<script type="text/javascript">var celebros_sitekey = ''</script><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(e,t){function n(){}function r(e){function t(e){return e&&e instanceof n?e:e?a(e,i,o):o()}function s(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,f=0;u>f;f++)a[f].apply(i,r);var s=c[w[n]];return s&&s.push([h,n,r,i]),i}function p(e,t){g[e]=l(e).concat(t)}function l(e){return g[e]||[]}function d(e){return f[e]=f[e]||r(s)}function v(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in c||(c[t]=[])})}var g={},w={},h={on:p,emit:s,get:d,listeners:l,context:t,buffer:v};return h}function o(){return new n}var i="nr@context",a=e("gos"),u=e(1),c={},f={},s=t.exports=r();s.backlog=c},{1:12,gos:"7eSDFh"}],ee:[function(e,t){t.exports=e("QJf3ax")},{}],3:[function(e,t){function n(e,t){return function(){r(e,[(new Date).getTime()].concat(i(arguments)),null,t)}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],c="api-";o(a,function(e,t){newrelic[t]=n(c+t,"api")}),o(u,function(e,t){newrelic[t]=n(c+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),r("err",[e,(new Date).getTime()])}},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,t){t.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,t){function n(e,t,n){if(r.call(e,t))return e[t];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],handle:[function(e,t){t.exports=e("D5DuLP")},{}],D5DuLP:[function(e,t){function n(e,t,n,o){r.buffer([e],o),r.emit(e,t,n)}var r=e("ee").get("handle");t.exports=n,n.ee=r},{ee:"QJf3ax"}],XL7HBI:[function(e,t){function n(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");t.exports=n},{gos:"7eSDFh"}],id:[function(e,t){t.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,t){function n(){if(!v++){var e=d.info=NREUM.info,t=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){u(p,function(t,n){e[t]||(e[t]=n)});var n="https"===s.split(":")[0]||e.sslForHttp;d.proto=n?"https://":"http://",a("mark",["onload",i()],null,"api");var r=f.createElement("script");r.src=d.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()],null,"api")}function i(){return(new Date).getTime()}var a=e("handle"),u=e(1),c=window,f=c.document;NREUM.o={ST:setTimeout,XHR:c.XMLHttpRequest,REQ:c.Request,EV:c.Event,PR:c.Promise,MO:c.MutationObserver},e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-885.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),d=t.exports={offset:i(),origin:s,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()],null,"api");var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,t){t.exports=e("G9z0Bl")},{}],12:[function(e,t){function n(e,t){var n=[],o="",i=0;for(o in e)r.call(e,o)&&(n[i]=t(o,e[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],13:[function(e,t){function n(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=n},{}]},{},["G9z0Bl"]);</script>
+<title>NorthShore AirSupreme Briefs  | NorthShore Care Supply</title>
+<meta name="description" content="NorthShore AirSupreme Briefs feature airflow technology to prevent skin breakdown, maximum absorbency, wide coverage, and a superior stand-up leak guards." />
+<meta name="keywords" content="adult, diaper, clothlike, exterior, maximum, absorbency, tall, leak, guards, odor, control, bowel, incontinence, latex-free, overnight, diapers, wide, coverage, premium, capacity, moisture, wicking" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link rel="icon" href="http://www.northshorecare.com/skin/frontend/enterprise/northshore/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.northshorecare.com/skin/frontend/enterprise/northshore/favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=1024, user-scalable=yes" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://www.northshorecare.com/js/blank.html';
+    var BLANK_IMG = 'http://www.northshorecare.com/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.northshorecare.com/media/css/312b5cfafb2367ba06654efff61abc4e.css" />
+<link rel="stylesheet" type="text/css" href="http://www.northshorecare.com/media/css/cbd9d11feaa2783ad6bae53345f72161.css" media="all" />
+<script type="text/javascript" src="http://www.northshorecare.com/media/js/12d08de39adb9e74a2ae023434b15137.js"></script>
+<link rel="canonical" href="http://www.northshorecare.com/northshore-airsupreme-briefs.html" />
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://www.northshorecare.com/media/js/fc448337fd05e19045e8506dc3a77642.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.www.northshorecare.com';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<!-- BEGIN GOOGLE ANALYTICS CODEs -->
+<script type="text/javascript">
+//<![CDATA[
+    var _gaq = _gaq || [];
+    
+_gaq.push(['_setAccount', '3693512']);
+
+_gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+//]]>
+</script>
+<!-- END GOOGLE ANALYTICS CODE -->
+
+                        <!-- BEGIN LivePerson Monitor. -->
+<script type="text/javascript" src="/assets/js/live_engage.js"></script>
+<!-- END LivePerson Monitor. -->
+                    
+
+<script type='text/javascript'>
+    window.onAmazonLoginReady = function() {
+        amazon.Login.setClientId('amzn1.application-oa2-client.a077754898f64986beab92a671474ddd');
+
+        
+    };
+
+    
+</script>
+
+<script type='text/javascript' src='https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js?sellerId=A2OVM72FMWF1IL'></script>
+
+
+<script type="text/javascript" src="http://display.ugc.bazaarvoice.com/static/northshorecaresupply/Main+Site/en_US/bvapi.js"></script>
+
+
+<script type="text/javascript">
+    window.bv_usertoken = '';
+</script>
+<script type="text/javascript">
+    $BV.configure('global', {
+        productId : "D068",
+        userToken: window.bv_usertoken
+    });
+</script>
+
+
+
+                             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53557fd95ad64f71" async></script>
+                             <script type="text/javascript">
+                                var addthis_config = {
+                                    ui_click:true
+                                }
+                            </script>
+                        <script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script><script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+<!-- Start Visual Website Optimizer Code -->
+<script type='text/javascript'>
+var _vis_opt_account_id = 206125;
+var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+var _vis_opt_url = typeof(_vis_opt_url)=="undefined" ? document.URL : _vis_opt_url;
+document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
++encodeURIComponent(_vis_opt_url)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+</script>
+
+<script type='text/javascript'>
+if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+'d5phz18u4wuww.cloudfront.net/vis_opt_no_jquery.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+// if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+</script>
+
+<script type='text/javascript'>
+if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
+        _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
+}
+</script>
+<!-- End Visual Website Optimizer Code -->
+                  <script type="text/javascript">
+                    var w=window;
+                    if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"403102",ustr:"cs",originlat:0,clientrtt:32,ghostip:"184.85.215.168",
+                    ipv6:false,pct:10,xhrtest:false,clientip:"96.33.232.54",requestid:"55795e3f",protocol:"",blver:5,akM:"a",akN:"ae",akTT:"O",akTX:"1",akTI:"55795e3f",ai:"171086"};(function(a){var b=d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,
+                    a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                  </script>
+                  </head>
+<body class=" catalog-product-view catalog-product-view product-northshore-airsupreme-briefs">
+    
+<!-- BEGIN: Google Trusted Store -->
+<script type="text/javascript">
+//<![CDATA[
+  var gts = gts || [];
+
+  gts.push(["id", "11676"]);
+  gts.push(["badge_position", "BOTTOM_RIGHT"]);
+  gts.push(["locale", "en"]);
+  gts.push(["google_base_subaccount_id", "59955"]);
+  gts.push(["google_base_offer_id", "D068"]);
+  gts.push(["google_base_country", "US"]);
+  gts.push(["google_base_language", "en"]);
+
+  (function() {
+    var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
+    var gts = document.createElement("script");
+    gts.type = "text/javascript";
+    gts.async = true;
+    gts.src = scheme + "www.googlecommerce.com/trustedstores/api/js";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gts, s);
+  })();
+//]]>
+</script>
+<!-- END: Google Trusted Store --> 
+<!-- Tealium Universal Data Object / Data Layer -->
+<script type="text/javascript">
+    utag_data = {"site_region":"en_US","site_currency":"USD","page_name":"NorthShore AirSupreme Briefs","page_type":"product","page_section_name":"","page_category_name":"","page_subcategory_name":"","product_id":["13534"],"product_sku":["D068"],"product_name":["NorthShore AirSupreme Briefs"],"product_brand":[""],"product_category":["no_category"],"product_unit_price":["18.70"],"product_list_price":["18.70"]};
+</script>
+<!-- ****************************************** --> 
+<!-- Async Load of Tealium utag.js library -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+        a='//tags.tiqcdn.com/utag/northshore/main/prod/utag.js';
+        b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d. 
+        async=true;
+        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+        })();
+</script>
+<!-- ************************************* -->        <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+
+    <header class="header-container">
+    <div class="header-panel">
+        <div class="centering">
+            <div class="tagline">
+                <p>The Incontinence Supply Experts</p>            </div>
+
+            
+            <div class="utility">
+                <nav class="links">
+                    <ul class="links">
+                        <li class="first" ><a href="https://www.northshorecare.com/customer/account/create/" title="Register" >Register</a></li>
+                                <li class=" last" ><a href="https://www.northshorecare.com/customer/account/login/" title="Sign In" >Sign In</a></li>
+            
+</ul>
+                    <ul class="links">
+    <li><a title="Quick Order" href="http://www.northshorecare.com/quickorder/">Quick Order</a></li>
+
+                <li class="parent track-order">
+            <a title="Track My Order" href="https://www.northshorecare.com/sales/guest/form/">Track My Order</a>
+            <ul class="dropdown">
+                <form id="oar_widget_orders_and_returns_form" action="https://www.northshorecare.com/sales/guest/view/" method="post" class="search-form " name="guest_post">
+    <input type="hidden" value="email" name="oar_type"/>
+    <ul class="form-list">
+        <li class="field" id="oar-email">
+            <label for="oar_email" class="required">Email Address <em>*</em></label>
+            <div class="input-box">
+                <input type="text" class="input-text validate-space validate-email required-entry" id="oar_email" name="oar_email" autocomplete="off" />
+            </div>
+        </li>
+        <li class="field">
+            <label for="oar_order_id" class="required">Order Number <em>*</em></label>
+            <div class="input-box">
+                <input type="text" class="input-text required-entry" id="oar_order_id" name="oar_order_id"  autocomplete="off" />
+            </div>
+        </li>
+        <li class="field">
+            <label for="oar_billing_lastname" class="required">Billing Last Name <em>*</em></label>
+            <div class="input-box">
+                <input type="text" class="input-text required-entry" id="oar_billing_lastname" name="oar_billing_lastname" autocomplete="off" />
+            </div>
+        </li>
+    </ul>
+    <input type="hidden" name="trk_ord_key" value="1" />
+    <div class="buttons-set">
+        <button type="submit" title="Continue" class="button darkblue"><span><span>Check Status</span></span></button>
+    </div>
+    <div class="fields-required-note">* = required</div>
+</form>
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    var dataForm = new VarienForm('oar_widget_orders_and_returns_form', true);
+
+    //]]>
+</script>
+            </ul>
+        </li>
+    
+    <li><a title="Contact Us" href="http://www.northshorecare.com/northshore/contact/">Contact Us</a></li>
+    <li class="parent email">
+        <a title="Email Sign-Up" href="#">Email Sign-Up</a>
+        <ul class="dropdown">
+            
+<form action="https://www.northshorecare.com/newsletter/subscriber/new/" method="post" id="header-newsletter-validate-detail" class="form-list">
+    <div class="form-subscribe">
+        <p>Sign up for our newsletter to receive product updates and exclusive offers.</p>
+        <div class="field">
+            <label for="header-newsletter">Email address<em>*</em></label>
+            <input name="email" type="text" id="header-newsletter" value="" class="input-text required-entry validate-space validate-email" />
+            <button type="submit" class="button darkblue button-adjust" title="Subscribe"><span><span>Sign Up</span></span></button>
+            <input type="hidden" name="page_url" value="/diapers/overnites1/northshore-airsupreme-briefs.html"/><input type="hidden" value="Header" name="source" /><input type="hidden" name="created_at" value="2016-03-21 15:14:21"/><input type = "hidden" name = "offer" value = "" />        </div>
+    </div>
+</form>
+<div class="fields-required-note">&nbsp;<br>* = required</div>
+<script type="text/javascript">
+    //<![CDATA[
+    var headerNewsletterSubscriberFormDetail = new VarienForm('header-newsletter-validate-detail');
+    //]]>
+</script>
+        </ul>
+    </li>
+    <li><a title="Saved Items" href="https://www.northshorecare.com/wishlist/">Saved Items</a></li>
+</ul>                </nav>
+                
+<div class="top-cart">
+        <div class="block-title no-items">
+        <a href="http://www.northshorecare.com/checkout/cart/">
+            <span class="cart"></span>
+            <span class="amount"><span>0</span></span>
+        </a>
+    </div>
+    <div id="topCartContent" class="block-content" style="display:none">
+        <a class="close" href="#">Close</a>
+                            <div class="cart-header">
+                <div class="inner">
+                    <h4>Shopping Cart is Empty</h4>
+                </div>
+            </div>
+            <div class="contents-empty">
+                <p class="empty">There are no items in your cart.                <div class="actions">
+                    <a href="http://www.northshorecare.com/" class="button details continue"><span><span>Continue Shopping</span></span></a>
+                </div>
+            </div>
+                    
+        
+    </div>
+    <script type="text/javascript">
+        
+        
+        jQuery(function() {
+            // Check if the message is a success message
+            if(jQuery('.messages .success-msg').length) {
+                var messages = $$('.messages')[0];
+                // Check for success message verbiage "%s was added to your shopping cart" present on the page. If it is, we want to show the mini cart
+                if (Object.isElement(messages) && messages.select('.success-msg')[0].innerHTML.match(/\bwas added to your shopping cart\b/) && (typeof menuHasShown == 'undefined')) {
+
+                    menuHasShown = true;
+
+                    // Show minicart drop down - then hide it on timeout after 20 seconds
+                    jQuery('.header-panel .top-cart').DropIt('showMenu', jQuery('.block-content'));
+                    window.setTimeout(function() {
+                        jQuery('.header-panel .top-cart').DropIt('hideMenu', jQuery('.block-content'));
+                    }, 12000);
+                }
+            }
+
+        });
+    </script>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="centering">
+            <div class="branding">
+                                    <a href="http://www.northshorecare.com/" title="NorthShore Care Supply" class="logo"><strong>NorthShore Care Supply</strong><img src="http://www.northshorecare.com/skin/frontend/enterprise/northshore/images/logo.png" alt="NorthShore Care Supply" /></a>
+                                            </div>
+
+            <form id="search_mini_form" action="http://www.northshorecare.com/catalogsearch/result/"  method="get" onsubmit="location.href=this.action + '?q=*&k='+ this.q.value +'#1&k='+this.q.value ; return false;">
+    <div class="form-search">
+
+        <input id="search" autocomplete="off" type="text" name="q" value="" class="input-text" maxlength="128"/>
+        <button id="btn_search" type="submit" title="Go" class="button"></button>
+        <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+        <div class="celUIT-ACDiv" id="celUIT-ACDiv" ></div>
+            </div>
+</form>
+            <div class="contact-info">
+            <span class="phone">
+                Call Us: (800) 563-0161<style>.header-container .contact-info .callback a { display:none; } .lp_maximized {left: 10%;} .lp_minimized {left: 10% !important;}</style>            </span>
+                <div class="actions">
+                    <span id='LP_DIV_1417649192831' class="live-chat main-chat"></span>
+<span id='LP_DIV_1417649447955' class='live-chat small-chat'></span>
+<!--<span id="call_back"></span>-->
+
+<span class="callback" style="display:none">
+<a href='http://server.iad.liveperson.net/hc/5356653/?cmd=file&file=visitorWantsToTalk&site=5356653&byhref=1&imageUrl=https://images.liveperson.com/lp/5356653' target='call5356653' onClick="lpButtonCTTUrl = 'http://server.iad.liveperson.net/hc/5356653/?cmd=file&file=visitorWantsToTalk&site=5356653&imageUrl=https://images.liveperson.com/lp/5356653&amp;referrer='+escape(document.location); lpButtonCTTUrl = (typeof(lpAppendVisitorCookies) != 'undefined' ? lpAppendVisitorCookies(lpButtonCTTUrl) : lpButtonCTTUrl); window.open(lpButtonCTTUrl,'call5356653','width=472,height=320,resizable=yes');return false;">Request Call Back</a>
+</span>                </div>
+            </div>
+        </div>
+    </div>
+        <div class="nav-container">
+        <div class="centering">
+            <ul id="nav">
+                <li  class="level0 nav-1 first level-top multi-column parent"><a href="http://www.northshorecare.com/diapers.html"  class="level-top multi-column" ><span>Diapers, Underwear &amp; Pads</span></a><ul class="level0"><li class="top-rows"><ul class="row"><li  class="level1 nav-1-1 first"><a href="http://www.northshorecare.com/diapers/overnites1.html" ><img src="//www.northshorecare.com/media/catalog/category/fitted-briefs_atn_3.png"><span>Overnight Briefs (Tab-Style)</span></a></li><li  class="level1 nav-1-2"><a href="http://www.northshorecare.com/diapers/fitteds1.html" ><img src="//www.northshorecare.com/media/catalog/category/fitted_briefs.jpg"><span>Fitted Briefs&#13;       &nbsp;(Tab-Style)</span></a></li><li  class="level1 nav-1-3"><a href="http://www.northshorecare.com/diapers/pullons1.html" ><img src="//www.northshorecare.com/media/catalog/category/pull-ons.png"><span>Pull-On Underwear Diapers</span></a></li><li  class="level1 nav-1-4"><a href="http://www.northshorecare.com/diapers/belteds1.html" ><img src="//www.northshorecare.com/media/catalog/category/belted.png"><span>Belted Undergarments</span></a></li></ul><ul class="row"><li  class="level1 nav-1-5"><a href="http://www.northshorecare.com/diapers/boosters1.html" ><img src="//www.northshorecare.com/media/catalog/category/booster-pads-doublers.png"><span>Booster Pads / Doublers</span></a></li><li  class="level1 nav-1-6"><a href="http://www.northshorecare.com/diapers/liners1.html" ><img src="//www.northshorecare.com/media/catalog/category/liners-large-shaped-pads.png"><span>Liners (Large Shaped Pads)</span></a></li><li  class="level1 nav-1-7"><a href="http://www.northshorecare.com/diapers/pads1.html" ><img src="//www.northshorecare.com/media/catalog/category/light-pads-combo_2.png"><span>Light Pads &amp; Guards</span></a></li><li  class="level1 nav-1-8"><a href="http://www.northshorecare.com/diapers/washable-absorbent-underwear.html" ><img src="//www.northshorecare.com/media/catalog/category/washable-underwear_1.jpg"><span>Washable Underwear</span></a></li></ul><ul class="row"><li  class="level1 nav-1-9"><a href="http://www.northshorecare.com/diapers/diaper-covers.html" ><img src="//www.northshorecare.com/media/catalog/category/diapers-covers_1.jpg"><span>Diaper Covers</span></a></li><li  class="level1 nav-1-10"><a href="http://www.northshorecare.com/diapers/adult-swim-diapers.html" ><img src="//www.northshorecare.com/media/catalog/category/swim-diapers_1.jpg"><span>Swim Diapers</span></a></li><li  class="level1 nav-1-11"><a href="http://www.northshorecare.com/diapers/pullonsyouth1.html" ><img src="//www.northshorecare.com/media/catalog/category/youth-training-pant-109x109.png"><span>Youth Training Pants</span></a></li><li  class="level1 nav-1-12 last"><a href="http://www.northshorecare.com/diapers/diapers-baby.html" ><img src="//www.northshorecare.com/media/catalog/category/cuties-baby-diaper-109x109.png"><span>Baby Diapers</span></a></li></ul></li><li class="right-column"><div>
+<h4>Shop For</h4>
+<ul>
+<li><a href="/adult-diapers.html">Adult Diapers &amp; Pads</a></li>
+<li><a href="/shop-for/women.html">Female / Women</a></li>
+<li><a href="/shop-for/men.html">Male / Men</a></li>
+<li><a href="/youthdiapers1.html">Youth &#38; Teen</a></li>
+<li><a href="/baby-diapers.html">Baby & Toddler</a></li>
+<li><a href="/obcare1.html">Obesity Care</a></li>
+<li><a href="/under-pet.html">Pet</a></li>
+<li><a href="/shop-for/bowel-incontinence.html">Bowel Incontinence</a></li>
+</ul>
+</div></li><li class="bottom-spiff"></li></ul></li><li  class="level0 nav-2 level-top multi-column parent"><a href="http://www.northshorecare.com/underpads1.html"  class="level-top multi-column" ><span>Underpads &amp; Bed Pads</span></a><ul class="level0"><li class="top-rows"><ul class="row"><li  class="level1 nav-2-1 first"><a href="http://www.northshorecare.com/underpads1/chux1.html" ><img src="//www.northshorecare.com/media/catalog/category/DisposableUnderpads.png"><span>Disposable Underpads - Chux</span></a></li><li  class="level1 nav-2-2"><a href="http://www.northshorecare.com/underpads1/underpadswash1.html" ><img src="//www.northshorecare.com/media/catalog/category/washable-underpads_3.jpg"><span>Washable Underpads</span></a></li><li  class="level1 nav-2-3"><a href="http://www.northshorecare.com/underpads1/protectabed-mattress-protectors.html" ><img src="//www.northshorecare.com/media/catalog/category/MattressProtectors.png"><span>Mattress &amp; Pillow Protectors</span></a></li><li  class="level1 nav-2-4"><a href="http://www.northshorecare.com/underpads1/puppypads1.html" ><img src="//www.northshorecare.com/media/catalog/category/puppypad_2.jpg"><span>Pet Pads &amp; Puppy Pads</span></a></li></ul><ul class="row"><li  class="level1 nav-2-5"><a href="http://www.northshorecare.com/underpads1/underpadair1.html" ><img src="//www.northshorecare.com/media/catalog/category/airflow-underpads_3.jpg"><span>Airflow Underpads</span></a></li><li  class="level1 nav-2-6"><a href="http://www.northshorecare.com/underpads1/protectabed-mattress-encasements.html" ><img src="//www.northshorecare.com/media/catalog/category/ZipperedEncasements02.png"><span>Zippered Encasements</span></a></li><li  class="level1 nav-2-7"><a href="http://www.northshorecare.com/underpads1/quickcover-waterproof-furniture-protectors.html" ><img src="//www.northshorecare.com/media/catalog/category/furnitureprotectorrecliner.jpg"><span>Furniture Protectors</span></a></li><li  class="level1 nav-2-8 last"><a href="http://www.northshorecare.com/underpads1/crib-liners.html" ><img src="//www.northshorecare.com/media/catalog/category/babypad_2.jpg"><span>Baby Changing Pads</span></a></li></ul></li></ul></li><li  class="level0 nav-3 level-top multi-column parent"><a href="http://www.northshorecare.com/extra-care.html"  class="level-top multi-column" ><span>Extra Care</span></a><ul class="level0"><li class="top-rows"><ul class="row"><li  class="level1 nav-3-1 first"><a href="http://www.northshorecare.com/extra-care/wipes1.html" ><img src="//www.northshorecare.com/media/catalog/category/wipes_1.jpg"><span>Wipes</span></a></li><li  class="level1 nav-3-2"><a href="http://www.northshorecare.com/extra-care/gloves1.html" ><img src="//www.northshorecare.com/media/catalog/category/gloves_1.jpg"><span>Gloves</span></a></li><li  class="level1 nav-3-3"><a href="http://www.northshorecare.com/extra-care/skincare1.html" ><img src="//www.northshorecare.com/media/catalog/category/skin-care_1.jpg"><span>Skin Care</span></a></li><li  class="level1 nav-3-4"><a href="http://www.northshorecare.com/extra-care/disposal-bags.html" ><img src="//www.northshorecare.com/media/catalog/category/disposal-bags_1.jpg"><span>Disposal Bags</span></a></li></ul><ul class="row"><li  class="level1 nav-3-5"><a href="http://www.northshorecare.com/extra-care/diaper-disposal-pails.html" ><img src="//www.northshorecare.com/media/catalog/category/DisposalPails_1.png"><span>Disposal Pails</span></a></li><li  class="level1 nav-3-6"><a href="http://www.northshorecare.com/extra-care/stain-odor-control.html" ><img src="//www.northshorecare.com/media/catalog/category/stain-odor-control_1.jpg"><span>Stain &amp; Odor Control</span></a></li><li  class="level1 nav-3-7"><a href="http://www.northshorecare.com/extra-care/aids-for-daily-living-products.html" ><img src="//www.northshorecare.com/media/catalog/category/daily-living-aids_1.jpg"><span>Aids for Daily Living</span></a></li><li  class="level1 nav-3-8 last"><a href="http://www.northshorecare.com/extra-care/bibs.html" ><img src="//www.northshorecare.com/media/catalog/category/bib-category_1.jpg"><span>Bibs</span></a></li></ul></li></ul></li><li  class="level0 nav-4 level-top parent"><a href="http://www.northshorecare.com/browse-brands.html"  class="level-top" ><span>Shop by Brands</span></a><ul class="level0"><li class="top-rows"><ul class="row"><li  class="level1 nav-4-1 first"><a href="http://www.northshorecare.com/browse-brands/northshore-brands.html" ><span>NorthShore</span></a></li><li  class="level1 nav-4-2"><a href="http://www.northshorecare.com/browse-brands/abena-brands.html" ><span>Abena</span></a></li><li  class="level1 nav-4-3"><a href="http://www.northshorecare.com/browse-brands/attends1.html" ><span>Attends</span></a></li><li  class="level1 nav-4-4"><a href="http://www.northshorecare.com/browse-brands/champion-brands.html" ><span>Champion</span></a></li></ul><ul class="row"><li  class="level1 nav-4-5"><a href="http://www.northshorecare.com/browse-brands/depend-brands.html" ><span>Depend</span></a></li><li  class="level1 nav-4-6"><a href="http://www.northshorecare.com/browse-brands/dignity-incontinence-products.html" ><span>Dignity</span></a></li><li  class="level1 nav-4-7"><a href="http://www.northshorecare.com/browse-brands/medpride-brands.html" ><span>MedPride</span></a></li><li  class="level1 nav-4-8"><a href="http://www.northshorecare.com/browse-brands/molicare-incontinence-products.html" ><span>Molicare</span></a></li></ul><ul class="row"><li  class="level1 nav-4-9"><a href="http://www.northshorecare.com/browse-brands/poise-brands.html" ><span>Poise</span></a></li><li  class="level1 nav-4-10"><a href="http://www.northshorecare.com/browse-brands/prevail-brands.html" ><span>Prevail</span></a></li><li  class="level1 nav-4-11"><a href="http://www.northshorecare.com/browse-brands/protect-a-bed-brands.html" ><span>Protect-a-Bed</span></a></li><li  class="level1 nav-4-12"><a href="http://www.northshorecare.com/browse-brands/salk-brands.html" ><span>Salk</span></a></li></ul><ul class="row"><li  class="level1 nav-4-13"><a href="http://www.northshorecare.com/browse-brands/tena-brands.html" ><span>Tena</span></a></li><li  class="level1 nav-4-14 last"><a href="http://www.northshorecare.com/browse-brands/tranquility-diapers.html" ><span>Tranquility</span></a></li></ul></li><li class="bottom-spiff"><a href="http://www.northshorecare.com/browse-brands.html" class="viewall">View All Brands</a></li></ul></li><li  class="level0 nav-5 last level-top parent"><a href="http://www.northshorecare.com/educate"  class="level-top" ><span>Educate</span></a><ul class="level0"><li  class="level1 nav-5-1 first"><a href="http://www.northshorecare.com/educate/about-northshore" ><span>About NorthShore</span></a></li><li  class="level1 nav-5-2"><a href="http://www.northshorecare.com/educate/faq" ><span>FAQ</span></a></li><li  class="level1 nav-5-3"><a href="http://www.northshorecare.com/educate/educate-contact-menu-redirect" ><span>Contact Us</span></a></li><li  class="level1 nav-5-4"><a href="http://www.northshorecare.com/educate/resources" ><span>Resources</span></a></li><li  class="level1 nav-5-5"><a href="http://www.northshorecare.com/educate/incontinence-diaper-dermatitis-article" ><span>Article: Diaper Dermatitis...</span></a></li><li  class="level1 nav-5-6"><a href="http://www.northshorecare.com/educate/5-features-adult-diapers" ><span>Article: 5 Features of Adult Diapers...</span></a></li><li  class="level1 nav-5-7"><a href="http://www.northshorecare.com/educate/incontinence-article" ><span>Article: Breaking the Cycle of Incontinence...</span></a></li><li  class="level1 nav-5-8 last"><a href="http://www.northshorecare.com/educate/blog" ><span>Blog</span></a></li></ul></li>            </ul>
+        </div>
+    </div>
+    <div class="top-container"><div class="widget widget-banner">
+        <ul>
+            <li><!--<a href="/customer-service/return-policy">No-Hassle Returns! Learn More...</a>-->
+<a href="/servicio-espanol"  style="margin-left:-85px">Se Habla Espanol</a></li>
+            <li><a href="/customer-service/shipping-policy" style="color:#ffffff">Discreet Home Delivery. Guaranteed!</a></li>
+        </ul>
+</div>
+</div></header>
+
+    <div class="main-outer">
+        <div class="breadcrumbs">
+    <ul>
+                    <li class="home">
+                            <a href="http://www.northshorecare.com/" title="Go to Home Page">Home</a>
+                                        <span>/ </span>
+                        </li>
+                    <li class="product">
+                            <strong>NorthShore AirSupreme Briefs</strong>
+                                    </li>
+            </ul>
+</div>
+	            <div class="main col1-layout centering">
+            <div class="col-main">
+                                <script type="text/javascript">
+    var optionsPrice = new Product.OptionsPrice({"productId":"13534","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"includeTax":"false","showIncludeTax":false,"showBothPrices":false,"productPrice":18.7,"productOldPrice":18.7,"priceInclTax":18.7,"priceExclTax":18.7,"skipCalculate":1,"defaultTax":0,"currentTax":0,"idSuffix":"_clone","oldPlusDisposition":0,"plusDisposition":0,"plusDispositionTax":0,"oldMinusDisposition":0,"minusDisposition":0,"tierPrices":[],"tierPricesInclTax":[]});
+</script>
+<div id="messages_product_view"></div>
+<div class="product-view" itemscope itemtype="http://schema.org/Product">
+    <meta itemprop="category" content="NorthShore AirSupreme Briefs" />
+    <meta itemprop="brand" content="NorthShore" />
+    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <meta itemprop="priceCurrency" content="USD" />
+        <meta itemprop="price" content="18.7000" />
+        <meta itemprop="availability" content="In stock" />
+    </div>
+
+    <form action="http://www.northshorecare.com/checkout/cart/add/uenc/aHR0cDovL3d3dy5ub3J0aHNob3JlY2FyZS5jb20vbm9ydGhzaG9yZS1haXJzdXByZW1lLWJyaWVmcy5odG1s/product/13534/form_key/eqguTWiNKBOvPc3n/" method="post" id="product_addtocart_form">
+        <input name="form_key" type="hidden" value="eqguTWiNKBOvPc3n" />
+        <div class="no-display">
+            <input type="hidden" name="product" value="13534" />
+            <input type="hidden" name="related_product" id="related-products-field" value="" />
+        </div>
+        <div class="product-essential">
+            <div class="product-left">
+                <div class="product-img-box">
+                                            <div class="ribbon"><img src="http://www.northshorecare.com/media/wysiwyg/ribbons/top_seller.png"></div>
+                                        <div id="inner">
+                        
+
+    
+            <a class="product-image image-zoom MagicZoom" id="main-image" title="NorthShore AirSupreme Briefs" href="http://www.northshorecare.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-parent-bag.jpg">
+            <img src="http://www.northshorecare.com/media/catalog/product/cache/1/image/305x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-parent-bag.jpg" alt="NorthShore AirSupreme Briefs" title="NorthShore AirSupreme Briefs" />        </a>
+        <script type="text/javascript">
+        //<![CDATA[
+                MagicZoom.options = {
+                    'zoom-width' : 305,
+                    'zoom-height' : 305,
+                    'smoothing-speed' : 80,
+                    'fps' : 30,
+                    'selectors-mouseover-delay' : 20,
+                    'zoom-window-effect' : 'false',
+                    'hint' : true,
+                    'hint-position' : 'br',
+                    'selectors-effect' : 'fade',
+                    'show-title' : 'false',
+                    'zoom-position' : 'inner',
+                    'click-to-activate': 'true'
+                };
+        //]]>
+        </script>
+    
+    <div class="more-views">
+        <p>More Views</p>
+        <ul class="clearfix">
+                            <li>
+                    <a href="http://www.northshorecare.com/media/catalog/product/a/i/airsupreme-parent-bag.jpg" rev="http://www.northshorecare.com/media/catalog/product/cache/1/image/305x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-parent-bag.jpg" rel="zoom-id:main-image;" title="NorthShore AirSupreme Briefs"><img src="http://www.northshorecare.com/media/catalog/product/cache/1/thumbnail/64x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-parent-bag.jpg" alt="NorthShore AirSupreme Briefs" /></a>
+                </li>
+                            <li>
+                    <a href="http://www.northshorecare.com/media/catalog/product/a/i/airsupreme-brief.png" rev="http://www.northshorecare.com/media/catalog/product/cache/1/image/305x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-brief.png" rel="zoom-id:main-image;" title="NorthShore AirSupreme Briefs"><img src="http://www.northshorecare.com/media/catalog/product/cache/1/thumbnail/64x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-brief.png" alt="NorthShore AirSupreme Briefs" /></a>
+                </li>
+                            <li>
+                    <a href="http://www.northshorecare.com/media/catalog/product/n/o/northshore-airsupreme_bag_back_6.jpg" rev="http://www.northshorecare.com/media/catalog/product/cache/1/image/305x/9df78eab33525d08d6e5fb8d27136e95/n/o/northshore-airsupreme_bag_back_6.jpg" rel="zoom-id:main-image;" title="NorthShore AirSupreme Briefs"><img src="http://www.northshorecare.com/media/catalog/product/cache/1/thumbnail/64x/9df78eab33525d08d6e5fb8d27136e95/n/o/northshore-airsupreme_bag_back_6.jpg" alt="NorthShore AirSupreme Briefs" /></a>
+                </li>
+                            <li>
+                    <a href="http://www.northshorecare.com/media/catalog/product/i/n/instructionsforuse_2.jpg" rev="http://www.northshorecare.com/media/catalog/product/cache/1/image/305x/9df78eab33525d08d6e5fb8d27136e95/i/n/instructionsforuse_2.jpg" rel="zoom-id:main-image;" title="Instructions for Use"><img src="http://www.northshorecare.com/media/catalog/product/cache/1/thumbnail/64x/9df78eab33525d08d6e5fb8d27136e95/i/n/instructionsforuse_2.jpg" alt="Instructions for Use" /></a>
+                </li>
+                    </ul>
+    </div>
+                    </div>
+                </div>
+                                    <div class="left-spiff-row">
+                                                    <div class="logos fullwidth">
+                                                                    <div class="brand">
+                                        <span><img src="http://www.northshorecare.com/media/wysiwyg/brand_logo/northshore.png" alt="northShore" title="northShore" /></span>
+                                    </div>
+                                                                                            </div>
+                                                <div class="customer-service">
+                            <p><span>Have a question about this product?</span> Call us at (800) 563-0161</p>                        </div>
+                        <div class="delivery-message"><!--{WIDGET_ENTERPRISE_BANNER_9a04c1db5b1dcdc4279ff410a6689f67}--><div class="widget widget-banner">
+        <ul>
+            <li><div class="widget widget-static-block"><script type="text/javascript">function nuWin(e,t,n,r,i,s,o){var u=(window.screenX||window.screenLeft||0)+(n||0);var a=(window.screenY||window.screenTop||0)+(r||0);var f="top="+a+",left="+u+",width="+i+",height="+s+",scrollbar="+o;var l=window.open(e,t,f);l.focus()}</script></div>
+
+<div class="spiff">
+<img style="float:left;" src="http://www.northshorecare.com/media/wysiwyg/spiffs/Adamsclock.jpg">
+<p>&nbsp;</p>    
+<p><span class="title">Same Day Shipment! </span></p>
+<div style="line-height:1.25"><p><strong>Orders placed by 5 p.m. Central</strong></p></div>
+<p>&nbsp;</p>
+</div>
+</li>
+        </ul>
+</div>
+<!--/{WIDGET_ENTERPRISE_BANNER_9a04c1db5b1dcdc4279ff410a6689f67}--></div>                    </div>
+                            </div>
+            <div class="product-shop">
+                <div class="top">
+                    <div class="product-name">
+                        <h1 itemprop="name">NorthShore AirSupreme Briefs</h1>
+                    </div>
+                    <div class="product-main-info">
+
+                        <div class="item-info">
+                                                            <div class="sku-container">
+                                    <input id="configurable-sku" type="hidden" value=" D068" />
+                                    <p class="sku">
+                                        <span>NorthShore Item No.:</span>
+                                                                                    <span class="placeholder">Select Option</span>
+                                                                                <span class="value"></span>
+                                    </p>
+                                </div>
+                                                                    <div class="model-number-container">
+                                        <p class="model-number">
+                                            <span>Model No.:</span>
+                                            <span class="placeholder">Select Option</span>
+                                            <span class="value"></span>
+                                        </p>
+                                    </div>
+                                                                                        
+                                                                                                <p class="availability in-stock">Availability: <span >In stock</span></p>
+                                                            
+                        </div>
+
+
+                                            </div>
+                    <div class="ratings">
+                        <div id="BVRRSummaryContainer"></div>
+                        <ul class="share">
+                            <li><a class="addthis_button">Share</a></li>
+                            <li><a onClick="window.print(); return false;">Print</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13534"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13534">
+                                            <span class="price">$18.70</span>                                    </span>
+                                    
+            </div>
+
+                
+                
+                                
+
+                                                    
+                                    <div class="options-container-big">
+                        <fieldset class="product-options" id="product-options-wrapper">
+    
+    <dl>
+            <dt>Select Size</label></dt>
+        <dd class=" size-option clearfix">
+            <div class="input-box">
+                <select name="super_attribute[981]" id="attribute981" class="required-entry super-attribute-select">
+                    <option>Choose an Option...</option>
+                  </select>
+            </div>
+
+                                            <div class="size-chart-link">
+                    <a class="modal-trigger link-size-chart" href="#sizechart" title="Size/Absorbency Chart">Size/Absorbency Chart</a>
+                    <div class="modal-inner" id="sizechart" style="display:none;">
+                        <img src="http://www.northshorecare.com/media/wysiwyg/sizeguides/D068.jpg" />
+                    </div>
+                </div>
+            
+        </dd>
+
+
+            <dt>Package Size</label></dt>
+        <dd class="last  clearfix">
+            <div class="input-box">
+                <select name="super_attribute[881]" id="attribute881" class="required-entry super-attribute-select">
+                    <option>Choose an Option...</option>
+                  </select>
+            </div>
+
+            
+        </dd>
+
+
+        </dl>
+    <script type="text/javascript">
+        var spConfig = new Product.Config({"attributes":{"981":{"id":"981","code":"size_config_simple_dd","label":"Select Size","options":[{"id":"9235","label":"Medium, 28 - 44 in.","oldPrice":"0","products":["13521","13522"]},{"id":"8331","label":"X-Small, 16 - 25 in.","oldPrice":"0","products":["13517","13518"]},{"id":"9291","label":"Small, 22 - 32 in.","oldPrice":"0","products":["13519","13520"]},{"id":"9206","label":"Large, 40 - 58 in.","oldPrice":"0","products":["13523","13524"]},{"id":"8330","label":"X-Large, 48 - 64 in.","oldPrice":"0","products":["13525","13526"]}]},"881":{"id":"881","code":"quantity_config_simple_dd","label":"Package Size","options":[{"id":"8984","label":"Pack\/15","oldPrice":"0","products":["13522","13524","13526"]},{"id":"8983","label":"Pack\/20","oldPrice":"0","products":["13518","13520"]},{"id":"8903","label":"Case\/45 (3\/15s)","oldPrice":"0","products":["13523","13525"]},{"id":"8931","label":"Case\/60 (4\/15s)","oldPrice":"0","products":["13521"]},{"id":"8959","label":"Case\/80 (4\/20s)","oldPrice":"0","products":["13517","13519"]}]}},"template":"$#{price}","basePrice":"18.7","oldPrice":"18.7","productId":"13534","chooseText":"Choose an Option...","taxConfig":{"includeTax":false,"showIncludeTax":false,"showBothPrices":false,"defaultTax":0,"currentTax":0,"inclTaxTitle":"Incl. Tax"},"childProducts":{"13517":{"price":"67.99","finalPrice":"67.99","sku":"1201","model_number":"1201"},"13518":{"price":"18.7","finalPrice":"18.7","sku":"1203","model_number":"1201"},"13519":{"price":"79.99","finalPrice":"79.99","sku":"1204","model_number":"1204"},"13520":{"price":"21.8","finalPrice":"21.8","sku":"1206","model_number":"1204"},"13521":{"price":"79.99","finalPrice":"79.99","sku":"1207","model_number":"1207"},"13522":{"price":"21.99","finalPrice":"21.99","sku":"1209","model_number":"1207"},"13523":{"price":"69.99","finalPrice":"69.99","sku":"1210","model_number":"1210"},"13524":{"price":"25.65","finalPrice":"25.65","sku":"1212","model_number":"1210"},"13525":{"price":"71.99","finalPrice":"71.99","sku":"1213","model_number":"1213"},"13526":{"price":"26.4","finalPrice":"26.4","sku":"1215","model_number":"1213"}},"priceFromLabel":"Starting At:","ajaxBaseUrl":"http:\/\/www.northshorecare.com\/oi\/ajax\/","productName":"NorthShore AirSupreme Briefs","description":"As specialists in providing incontinence solutions, we designed our own premium brand with the same extra wide front and back coverage of European style briefs. Then added world-class absorbency to create airflow breathable briefs at a reasonable price. Our unique, thick Microsorb lining stays soft and dry even after a long night. Take a moment to watch the video and activate the brief. You will see for yourself how nicely the leak guards stand up and the brief conforms to your shape. Latex-free. Made in France. ","shortDescription":"The NorthShore Brand is our most absorbent brief for both day and night usage. AirSupreme features airflow breathability to promote skin health. Feel confident that you will be protected from side leaks with tall leak guards and 4 strand leg gathers.","imageUrl":"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-parent-bag.jpg","productAttributes":"<table class=\"data-table\" id=\"product-attribute-specs-table\">\n    <col width=\"25%\" \/>\n    <col \/>\n    <tbody>\n                                                    <tr>\n                <th class=\"label\">Brand<\/th>\n                <td class=\"data\">NorthShore<\/td>\n            <\/tr>\n                                                            <tr>\n                <th class=\"label\">Absorbency<\/th>\n                <td class=\"data\">(oz.) XS=20, S=27, M=35, L=40, XL=42<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Sizes Available<\/th>\n                <td class=\"data\">X-Small, Small, Medium, Large, X-Large<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Reusability<\/th>\n                <td class=\"data\">Disposable<\/td>\n            <\/tr>\n                                                            <tr>\n                <th class=\"label\">Backsheet<\/th>\n                <td class=\"data\">Cloth-like, Waterproof<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Odor Control<\/th>\n                <td class=\"data\">Excellent<\/td>\n            <\/tr>\n                                                            <tr>\n                <th class=\"label\">Leak Guards<\/th>\n                <td class=\"data\">Yes<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Elastic Waistband<\/th>\n                <td class=\"data\">None<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Individually Wrapped<\/th>\n                <td class=\"data\">No<\/td>\n            <\/tr>\n                                                                                                                                                                                    <tr>\n                <th class=\"label\">Shop For<\/th>\n                <td class=\"data\">Women, Men, Youth<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Incontinence Type<\/th>\n                <td class=\"data\">Urinary, Bowel, Urinary+Bowel<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Manufacturer<\/th>\n                <td class=\"data\">NorthShore Care Supply<\/td>\n            <\/tr>\n                                        <tr>\n                <th class=\"label\">Country of Manufacture<\/th>\n                <td class=\"data\">France<\/td>\n            <\/tr>\n                                    <\/tbody>\n<\/table>\n<script type=\"text\/javascript\">decorateTable('product-attribute-specs-table')<\/script>\n","imageZoomer":"\n\n    \n            <a class=\"product-image image-zoom MagicZoom\" id=\"main-image\" title=\"NorthShore AirSupreme Briefs\" href=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-parent-bag.jpg\">\n            <img src=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/305x\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-parent-bag.jpg\" alt=\"NorthShore AirSupreme Briefs\" title=\"NorthShore AirSupreme Briefs\" \/>        <\/a>\n        <script type=\"text\/javascript\">\n        \/\/<![CDATA[\n                MagicZoom.options = {\n                    'zoom-width' : 305,\n                    'zoom-height' : 305,\n                    'smoothing-speed' : 80,\n                    'fps' : 30,\n                    'selectors-mouseover-delay' : 20,\n                    'zoom-window-effect' : 'false',\n                    'hint' : true,\n                    'hint-position' : 'br',\n                    'selectors-effect' : 'fade',\n                    'show-title' : 'false',\n                    'zoom-position' : 'inner',\n                    'click-to-activate': 'true'\n                };\n        \/\/]]>\n        <\/script>\n    \n    <div class=\"more-views\">\n        <p>More Views<\/p>\n        <ul class=\"clearfix\">\n                            <li>\n                    <a href=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/a\/i\/airsupreme-parent-bag.jpg\" rev=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/305x\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-parent-bag.jpg\" rel=\"zoom-id:main-image;\" title=\"NorthShore AirSupreme Briefs\"><img src=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/thumbnail\/64x\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-parent-bag.jpg\" alt=\"NorthShore AirSupreme Briefs\" \/><\/a>\n                <\/li>\n                            <li>\n                    <a href=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/a\/i\/airsupreme-brief.png\" rev=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/305x\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-brief.png\" rel=\"zoom-id:main-image;\" title=\"NorthShore AirSupreme Briefs\"><img src=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/thumbnail\/64x\/9df78eab33525d08d6e5fb8d27136e95\/a\/i\/airsupreme-brief.png\" alt=\"NorthShore AirSupreme Briefs\" \/><\/a>\n                <\/li>\n                            <li>\n                    <a href=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/n\/o\/northshore-airsupreme_bag_back_6.jpg\" rev=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/305x\/9df78eab33525d08d6e5fb8d27136e95\/n\/o\/northshore-airsupreme_bag_back_6.jpg\" rel=\"zoom-id:main-image;\" title=\"NorthShore AirSupreme Briefs\"><img src=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/thumbnail\/64x\/9df78eab33525d08d6e5fb8d27136e95\/n\/o\/northshore-airsupreme_bag_back_6.jpg\" alt=\"NorthShore AirSupreme Briefs\" \/><\/a>\n                <\/li>\n                            <li>\n                    <a href=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/i\/n\/instructionsforuse_2.jpg\" rev=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/image\/305x\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/instructionsforuse_2.jpg\" rel=\"zoom-id:main-image;\" title=\"Instructions for Use\"><img src=\"http:\/\/www.northshorecare.com\/media\/catalog\/product\/cache\/1\/thumbnail\/64x\/9df78eab33525d08d6e5fb8d27136e95\/i\/n\/instructionsforuse_2.jpg\" alt=\"Instructions for Use\" \/><\/a>\n                <\/li>\n                    <\/ul>\n    <\/div>\n"});
+    </script>
+<script type="text/javascript">
+//<![CDATA[
+var DateOption = Class.create({
+
+    getDaysInMonth: function(month, year)
+    {
+        var curDate = new Date();
+        if (!month) {
+            month = curDate.getMonth();
+        }
+        if (2 == month && !year) { // leap year assumption for unknown year
+            return 29;
+        }
+        if (!year) {
+            year = curDate.getFullYear();
+        }
+        return 32 - new Date(year, month - 1, 32).getDate();
+    },
+
+    reloadMonth: function(event)
+    {
+        var selectEl = event.findElement();
+        var idParts = selectEl.id.split("_");
+        if (idParts.length != 3) {
+            return false;
+        }
+        var optionIdPrefix = idParts[0] + "_" + idParts[1];
+        var month = parseInt($(optionIdPrefix + "_month").value);
+        var year = parseInt($(optionIdPrefix + "_year").value);
+        var dayEl = $(optionIdPrefix + "_day");
+
+        var days = this.getDaysInMonth(month, year);
+
+        //remove days
+        for (var i = dayEl.options.length - 1; i >= 0; i--) {
+            if (dayEl.options[i].value > days) {
+                dayEl.remove(dayEl.options[i].index);
+            }
+        }
+
+        // add days
+        var lastDay = parseInt(dayEl.options[dayEl.options.length-1].value);
+        for (i = lastDay + 1; i <= days; i++) {
+            this.addOption(dayEl, i, i);
+        }
+    },
+
+    addOption: function(select, text, value)
+    {
+        var option = document.createElement('OPTION');
+        option.value = value;
+        option.text = text;
+
+        if (select.options.add) {
+            select.options.add(option);
+        } else {
+            select.appendChild(option);
+        }
+    }
+});
+dateOption = new DateOption();
+//]]>
+</script>
+    <script type="text/javascript">
+    //<![CDATA[
+    var optionFileUpload = {
+        productForm : $('product_addtocart_form'),
+        formAction : '',
+        formElements : {},
+        upload : function(element){
+            this.formElements = this.productForm.getElementsBySelector('input', 'select', 'textarea', 'button');
+            this.removeRequire(element.readAttribute('id').sub('option_', ''));
+
+            template = '<iframe id="upload_target" name="upload_target" style="width:0; height:0; border:0;"><\/iframe>';
+
+            Element.insert($('option_'+element.readAttribute('id').sub('option_', '')+'_uploaded_file'), {after: template});
+
+            this.formAction = this.productForm.action;
+            this.productForm.action = 'http://www.northshorecare.com/catalog/product/upload/option_id/'+element.readAttribute('id').sub('option_', '');
+            this.productForm.target = 'upload_target';
+            this.productForm.submit();
+            this.productForm.target = '';
+            this.productForm.action = this.formAction;
+        },
+        removeRequire : function(skipElementId){
+            for(var i=0; i<this.formElements.length; i++){
+                if (this.formElements[i].readAttribute('id') != 'option_'+skipElementId+'_file' && this.formElements[i].type != 'button') {
+                    this.formElements[i].disabled='disabled';
+                }
+            }
+        },
+        addRequire : function(skipElementId){
+            for(var i=0; i<this.formElements.length; i++){
+                if (this.formElements[i].readAttribute('name') != 'options_'+skipElementId+'_file' && this.formElements[i].type != 'button') {
+                    this.formElements[i].disabled='';
+                }
+            }
+        },
+        uploadCallback : function(data){
+            this.addRequire(data.optionId);
+            $('upload_target').remove();
+
+            if (data.error) {
+
+            } else {
+                $('option_'+data.optionId+'_uploaded_file').value = data.fileName;
+                $('option_'+data.optionId+'_file').value = '';
+                $('option_'+data.optionId+'_file').hide();
+                $('option_'+data.optionId+'').hide();
+                template = '<div id="option_'+data.optionId+'_file_box"><a href="#"><img src="var/options/'+data.fileName+'"><\/a><a href="#" onclick="optionFileUpload.removeFile('+data.optionId+')">Remove file<\/a>';
+
+                Element.insert($('option_'+data.optionId+'_uploaded_file'), {after: template});
+            }
+        },
+        removeFile : function(optionId)
+        {
+            $('option_'+optionId+'_uploaded_file').value= '';
+            $('option_'+optionId+'_file').show();
+            $('option_'+optionId+'').show();
+
+            $('option_'+optionId+'_file_box').remove();
+        }
+    }
+    var optionTextCounter = {
+        count : function(field,cntfield,maxlimit){
+            if (field.value.length > maxlimit){
+                field.value = field.value.substring(0, maxlimit);
+            } else {
+                cntfield.innerHTML = maxlimit - field.value.length;
+            }
+        }
+    }
+
+    Product.Options = Class.create();
+    Product.Options.prototype = {
+        initialize : function(config){
+            this.config = config;
+            this.reloadPrice();
+        },
+        reloadPrice : function(){
+            price = new Number();
+            config = this.config;
+            skipIds = [];
+            $$('.product-custom-option').each(function(element){
+                var optionId = 0;
+                element.name.sub(/[0-9]+/, function(match){
+                    optionId = match[0];
+                });
+                if (this.config[optionId]) {
+                    if (element.type == 'checkbox' || element.type == 'radio') {
+                        if (element.checked) {
+                            if (config[optionId][element.getValue()]) {
+                                price += parseFloat(config[optionId][element.getValue()]);
+                            }
+                        }
+                    } else if(element.hasClassName('datetime-picker') && !skipIds.include(optionId)) {
+                        dateSelected = true;
+                        $$('.product-custom-option[id^="options_' + optionId + '"]').each(function(dt){
+                            if (dt.getValue() == '') {
+                                dateSelected = false;
+                            }
+                        });
+                        if (dateSelected) {
+                            price += parseFloat(this.config[optionId]);
+                            skipIds[optionId] = optionId;
+                        }
+                    } else if(element.type == 'select-one' || element.type == 'select-multiple') {
+                        if (element.options) {
+                            $A(element.options).each(function(selectOption){
+                                if (selectOption.selected) {
+                                    if (this.config[optionId][selectOption.value]) {
+                                        price += parseFloat(this.config[optionId][selectOption.value]);
+                                    }
+                                }
+                            });
+                        }
+                    } else {
+                        if (element.getValue().strip() != '') {
+                            price += parseFloat(this.config[optionId]);
+                        }
+                    }
+                }
+            });
+            try {
+                optionsPrice.changePrice('options', price);
+                optionsPrice.reload();
+            } catch (e) {
+
+            }
+        }
+    }
+    function validateOptionsCallback(elmId, result){
+        var container = $(elmId).up('ul.options-list');
+        if (result == 'failed') {
+            container.removeClassName('validation-passed');
+            container.addClassName('validation-failed');
+        } else {
+            container.removeClassName('validation-failed');
+            container.addClassName('validation-passed');
+        }
+    }
+    var opConfig = new Product.Options([]);
+    //]]>
+    </script>
+    <dl>
+        </dl>
+
+<script type="text/javascript">
+//<![CDATA[
+enUS = {"m":{"wide":["January","February","March","April","May","June","July","August","September","October","November","December"],"abbr":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]}}; // en_US locale reference
+Calendar._DN = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; // full day names
+Calendar._SDN = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]; // short day names
+Calendar._FD = 0; // First day of the week. "0" means display Sunday first, "1" means display Monday first, etc.
+Calendar._MN = ["January","February","March","April","May","June","July","August","September","October","November","December"]; // full month names
+Calendar._SMN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; // short month names
+Calendar._am = "AM"; // am/pm
+Calendar._pm = "PM";
+
+// tooltips
+Calendar._TT = {};
+Calendar._TT["INFO"] = "About the calendar";
+
+Calendar._TT["ABOUT"] =
+"DHTML Date/Time Selector\n" +
+"(c) dynarch.com 2002-2005 / Author: Mihai Bazon\n" +
+"For latest version visit: http://www.dynarch.com/projects/calendar/\n" +
+"Distributed under GNU LGPL. See http://gnu.org/licenses/lgpl.html for details." +
+"\n\n" +
+"Date selection:\n" +
+"- Use the \xab, \xbb buttons to select year\n" +
+"- Use the " + String.fromCharCode(0x2039) + ", " + String.fromCharCode(0x203a) + " buttons to select month\n" +
+"- Hold mouse button on any of the above buttons for faster selection.";
+Calendar._TT["ABOUT_TIME"] = "\n\n" +
+"Time selection:\n" +
+"- Click on any of the time parts to increase it\n" +
+"- or Shift-click to decrease it\n" +
+"- or click and drag for faster selection.";
+
+Calendar._TT["PREV_YEAR"] = "Prev. year (hold for menu)";
+Calendar._TT["PREV_MONTH"] = "Prev. month (hold for menu)";
+Calendar._TT["GO_TODAY"] = "Go Today";
+Calendar._TT["NEXT_MONTH"] = "Next month (hold for menu)";
+Calendar._TT["NEXT_YEAR"] = "Next year (hold for menu)";
+Calendar._TT["SEL_DATE"] = "Select date";
+Calendar._TT["DRAG_TO_MOVE"] = "Drag to move";
+Calendar._TT["PART_TODAY"] = ' (' + "Today" + ')';
+
+// the following is to inform that "%s" is to be the first day of week
+Calendar._TT["DAY_FIRST"] = "Display %s first";
+
+// This may be locale-dependent. It specifies the week-end days, as an array
+// of comma-separated numbers. The numbers are from 0 to 6: 0 means Sunday, 1
+// means Monday, etc.
+Calendar._TT["WEEKEND"] = "0,6";
+
+Calendar._TT["CLOSE"] = "Close";
+Calendar._TT["TODAY"] = "Today";
+Calendar._TT["TIME_PART"] = "(Shift-)Click or drag to change value";
+
+// date formats
+Calendar._TT["DEF_DATE_FORMAT"] = "%b %e, %Y";
+Calendar._TT["TT_DATE_FORMAT"] = "%B %e, %Y";
+
+Calendar._TT["WK"] = "Week";
+Calendar._TT["TIME"] = "Time:";
+//]]>
+</script>
+    <span style="display:none;" class="scp-please-wait"><img src="http://www.northshorecare.com/skin/frontend/enterprise/northshore/images/loader.gif" class="v-middle" alt="" />Please Wait...</span>
+        <div id="SCPcustomOptionsDiv"></div>
+</fieldset>
+<script type="text/javascript">
+    $$('#product-options-wrapper dl').each(function(label) {
+        label.addClassName('last');
+    });
+</script><div class="product-options-bottom clearfix">
+        <div class="add-to-cart">
+        			<div class="qty-box qty-toggle f-left">
+			    <span class="label">Quantity</span>
+
+			    <div class="inner">
+			        <button class="button minus decrement" type="button"><i class="icon-minus"></i></button>
+			        <input type="number" name="qty" id="qty" maxlength="12" value="0" title="Qty" placeholder="" class="input-text qty" />
+			        <button class="button plus increment" type="button"><i class="icon-plus"></i></button>
+			    </div>
+			</div>
+                        <div class="og-offer f-left" data-og-module="pdp" data-og-product="*"></div>
+        <div id="addto-ogoffer"></div>
+    </div>
+    <button type="button" title="Add to Cart" class="button btn-cart large-primary f-left" onclick="productAddToCartForm.submit(this)" data-og-event="addToCart" data-og-product="*" data-og-module="pdp"><span><span>Add to Cart</span></span></button>
+
+
+
+
+<ul class="add-to-links">
+    <li><a href="https://www.northshorecare.com/wishlist/index/add/product/13534/form_key/eqguTWiNKBOvPc3n/" onclick="productAddToCartForm.submitLight(this, this.href); return false;" class="link-wishlist" id="link-wishlist" title="Save Item">Save Item</a></li>
+    <li><a href="http://www.northshorecare.com/catalog/product_compare/add/product/13534/uenc/aHR0cDovL3d3dy5ub3J0aHNob3JlY2FyZS5jb20vZGlhcGVycy9vdmVybml0ZXMxL25vcnRoc2hvcmUtYWlyc3VwcmVtZS1icmllZnMuaHRtbA,,/form_key/eqguTWiNKBOvPc3n/" class="link-compare" title="Add to Compare">Add to Compare</a></li>
+
+</ul>
+
+</div>
+                    </div>
+                
+                <div class="product-icons">
+
+                                            <div class="absorbency">
+                                                          <div class="inner">
+                                <div class="rating" style="width:100%"></div>
+                                <div class="tipsy">
+
+                                Heaviest Absorbency
+                                </div>
+                             </div>
+                         </div>
+                    
+                                            <div class="divider"></div>
+                                            
+
+                                            <div class="badges">
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/antileak_leg_barriers.png" alt="Anti-leak Leg Barriers" title="Anti-leak Leg Barriers" />
+                                    <div class="tipsy">Anti-leak Leg Barriers</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/breathable.png" alt="Breathable" title="Breathable" />
+                                    <div class="tipsy">Breathable</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/disposable.png" alt="Disposable" title="Disposable" />
+                                    <div class="tipsy">Disposable</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/latex_free.png" alt="Latex Free" title="Latex Free" />
+                                    <div class="tipsy">Latex Free</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/tabstyle.png" alt="Tab-Style" title="Tab-Style" />
+                                    <div class="tipsy">Tab-Style</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/unisex.png" alt="Unisex" title="Unisex" />
+                                    <div class="tipsy">Unisex</div>
+                                </span>
+                                                                                            <span>
+                                    <img class="badge" src="http://www.northshorecare.com/media/wysiwyg/badges/waterproof.png" alt="Waterproof" title="Waterproof" />
+                                    <div class="tipsy">Waterproof</div>
+                                </span>
+                                                    </div>
+                                    </div>
+
+                                    <div class="short-description std">
+                        <p>The NorthShore Brand is our most absorbent brief for both day and night usage. AirSupreme features airflow breathability to promote skin health. Feel confident that you will be protected from side leaks with tall leak guards and 4 strand leg gathers.</p>
+                    </div>
+                
+                                    <div class="short-description std">
+                        <p><center><img border="0" src="/media/wysiwyg/spiffs/pdp-airsupremeicons-v1.jpg" alt="NorthShore AirSupreme" width="600" height="120"></center></p>
+                    </div>
+                
+                
+            </div>
+
+                    </div>
+        <div class="product-collateral">
+
+                            <div id="collateral-tabs" class="tabs-container">
+                    <ul class="tabby-tabs nav clearfix">
+                                                    <li>
+                                <a class="tab description" href="#description"><span>Description</span></a>
+                            </li>
+                                                    <li>
+                                <a class="tab additional" href="#additional"><span>Details</span></a>
+                            </li>
+                                                    <li>
+                                <a class="tab review_tab" href="#review_tab"><span>Reviews</span></a>
+                            </li>
+                                                    <li>
+                                <a class="tab questions_tab" href="#questions_tab"><span>Product Q&amp;A</span></a>
+                            </li>
+                                            </ul>
+                                        <div id="description" class="content tab-content">
+                        <div>
+
+<div class="std">
+    <div data-baseurl="http://www.northshorecare.com/" class="left ">
+        <h4>Description:</h4>
+        <p>As specialists in providing incontinence solutions, we designed our own premium brand with the same extra wide front and back coverage of European style briefs. Then added world-class absorbency to create airflow breathable briefs at a reasonable price. Our unique, thick Microsorb lining stays soft and dry even after a long night. Take a moment to watch the video and activate the brief. You will see for yourself how nicely the leak guards stand up and the brief conforms to your shape. Latex-free. Made in France. </p>
+
+        <div class="brochures">
+            <p> </p>
+            <p> </p>
+        </div>
+
+                    <div class="video">
+                <iframe width="485" height="274" src="http://www.youtube.com/embed/ibUH5Z0bVqI?res=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </div>
+    <div class="right features">
+                    <h4>Features Include:</h4>
+            <ul> <li><span>Maximum Absorbent Capacity</span><p>Sleep all night as the soft quick drying top sheet wicks moisture into the microsorb lining that absorbs quickly to lock wetness away from the skin.</p></li> <li><span>Stand-Up Leak Guards</span><p> Tall Leak Guards once activated will stand up to provide a secure barrier at leg openings to prevent side leaks.</p></li> <li><span>Wide Coverage</span><p>Extra wide protection in front and rear along with high absorbency provide maximum protection in the most demanding situations.</p></li> <li><span>Rustle-Free Exterior</span><p>Soft cloth-like exterior is waterproof plus discreet and quiet while you move.</p></li> <li><span>Premium Quality</span><p>Air Breathable promotes healthy skin, anti-odor protection provides discreetness, and refastenable hook & tape tabs secure a proper fit.</p></li> </ul>            </div>
+
+</div>
+</div>
+                    </div>
+                                        <div id="additional" class="content tab-content">
+                        <div><table class="data-table" id="product-attribute-specs-table">
+    <col width="25%" />
+    <col />
+    <tbody>
+                                                    <tr>
+                <th class="label">Brand</th>
+                <td class="data">NorthShore</td>
+            </tr>
+                                                            <tr>
+                <th class="label">Absorbency</th>
+                <td class="data">(oz.) XS=20, S=27, M=35, L=40, XL=42</td>
+            </tr>
+                                        <tr>
+                <th class="label">Sizes Available</th>
+                <td class="data">X-Small, Small, Medium, Large, X-Large</td>
+            </tr>
+                                        <tr>
+                <th class="label">Reusability</th>
+                <td class="data">Disposable</td>
+            </tr>
+                                                            <tr>
+                <th class="label">Backsheet</th>
+                <td class="data">Cloth-like, Waterproof</td>
+            </tr>
+                                        <tr>
+                <th class="label">Odor Control</th>
+                <td class="data">Excellent</td>
+            </tr>
+                                                            <tr>
+                <th class="label">Leak Guards</th>
+                <td class="data">Yes</td>
+            </tr>
+                                        <tr>
+                <th class="label">Elastic Waistband</th>
+                <td class="data">None</td>
+            </tr>
+                                        <tr>
+                <th class="label">Individually Wrapped</th>
+                <td class="data">No</td>
+            </tr>
+                                                                                                                                                                                    <tr>
+                <th class="label">Shop For</th>
+                <td class="data">Women, Men, Youth</td>
+            </tr>
+                                        <tr>
+                <th class="label">Incontinence Type</th>
+                <td class="data">Urinary, Bowel, Urinary+Bowel</td>
+            </tr>
+                                        <tr>
+                <th class="label">Manufacturer</th>
+                <td class="data">NorthShore Care Supply</td>
+            </tr>
+                                        <tr>
+                <th class="label">Country of Manufacture</th>
+                <td class="data">France</td>
+            </tr>
+                                    </tbody>
+</table>
+<script type="text/javascript">decorateTable('product-attribute-specs-table')</script>
+</div>
+                    </div>
+                                        <div id="review_tab" class="content tab-content">
+                        <div>
+<div id="BVRRContainer">
+    <!--begin-bvseo-reviews-->
+
+	<!--begin-aggregate-rating--> 
+	<div id="bvseo-aggregateRatingSection" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		<span class="bvseo-itemReviewed" itemprop="itemReviewed">NorthShore AirSupreme Briefs</span> is rated
+			<span class="bvseo-ratingValue" itemprop="ratingValue">4.5752</span> out of 
+			<span class="bvseo-bestRating" itemprop="bestRating">5</span> by 
+			<span class="bvseo-reviewCount" itemprop="reviewCount">153</span>.
+	</div>
+	<!--end-aggregate-rating-->
+
+	<!--begin-reviews-->
+	<div id="bvseo-reviewsSection">
+		
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="79732657">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">Justin</span> from
+				<span itemprop="name">One of the Best</span>
+				<span itemprop="description">I received a sample two pack of these with my order of the regular Supreme Briefs.
+These have the same amazing absorbency, with the added benefit of re-attachable tapes (Velcro Like style). The cloth like outside is much more quiet than the plastic backed supreme briefs and is overall a very comfortable diaper.
+
+These things should be called Super Soakers I tell you what!
+I have a large bladder that spasms when its full, which empties it all at once.
+These diapers have held up to the task. Not a single leak with these or their plastic backed twins. They also work very well for Bowel Incontinence, (I have IBS).
+
+Overall, highly recommended for any incontinence needs!
+I will be buying many more over the years.
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2016-02-16</div>
+				<meta itemprop="datePublished" content="2016-02-16" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="75467169">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">Tyler26</span> from
+				<span itemprop="name">Bedwetting and Urge Incontinence</span>
+				<span itemprop="description">A couple samples and they work great at night and I am a heavy wetter! They are also nice and smooth and very thin, this will be a great diaper to use in the day as well. No crinkle!
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2016-01-24</div>
+				<meta itemprop="datePublished" content="2016-01-24" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="51826248">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">2</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">ed53</span> from
+				<span itemprop="name">ed</span>
+				<span itemprop="description">I got free sample of this diaper with my order I did not like this product Illl stay with tranquility works so much better you need diaper cover for this product or it will come thru ur clothes maybe if they had more of diaper go onto the side product work good but Iam not a back sleeper I sleep on my side as far as diaper area priduct work good but if u go and leaks to side it will drain to side where no padding is and leak onto your clothes I would not buy this product I try many different brands of diapers so far ones I like are attends and tranquility
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-05-01</div>
+				<meta itemprop="datePublished" content="2015-05-01" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="53213308">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">UGAFAN85</span> from
+				<span itemprop="name">Super Absorbent</span>
+				<span itemprop="description">I was a little skeptical getting cloth backed diapers thinking they wouldn&apos;t hold up as well as plastic backed ones but I&apos;m quite impressed with them and happy I decided to venture out and try something new. They hold very well considering they are cloth backed and I really like the tapes on them as you can readjust them when you need to without loosing stickiness or damaging the diaper itself. Well done NorthShore.
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-05-16</div>
+				<meta itemprop="datePublished" content="2015-05-16" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="48122904">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">Texan</span> from
+				<span itemprop="name">Great super absorbent diaper!</span>
+				<span itemprop="description">I just recently ordered a package of this new diaper from NorthShore and I will be ordering again. Thank you all so much for making these available. These diapers are super absorbent and do not leak even when very wet. I use them for overnight at home and when I fly on overnight international flights. They are also great for daytime when you cannot change for 5-7 hours at a time. If you have not tried them you really should order a pack. They are made to absorb quite a bit and seem to out perform both Molicare Super plus and Abena M-4 cloth backed diapers. An excellent value for the price! The tapes are the double tape style and you must re-apply back onto the blue tape if you want to refasten them more than once. I would suggest that a velcro type tape be used to make the re-fastening much easier.
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-03-18</div>
+				<meta itemprop="datePublished" content="2015-03-18" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="54350357">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">Nick007</span> from
+				<span itemprop="name">The best diaper ever</span>
+				<span itemprop="description">This is the best diaper I&apos;ve ever used in my life if you are looking for the most absorbent brief than this is it I used the cheap worthless depends fitted briefs for months using up to 7 and 8 a day I only use two or three of theses a day no more waking up soaked in the middle of the night
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-05-31</div>
+				<meta itemprop="datePublished" content="2015-05-31" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="48851836">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">2</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">justme</span> from
+				<span itemprop="name">Very stiff and uncomfortable</span>
+				<span itemprop="description">These are very absorbent, and the fit is pretty good, but they feel like flat concrete and are not comfortable at all. Also the tapes seem undersized and prone to breaking. They might be highly absorbent but they don&apos;t contour to my body, so I end up experiencing a lot of leaks.
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-03-30</div>
+				<meta itemprop="datePublished" content="2015-03-30" />
+		</div>
+		<div class="bvseo-review" itemprop="review" itemscope itemtype="http://schema.org/Review" data-reviewid="61880146">
+			<meta itemprop="itemReviewed" content="NorthShore AirSupreme Briefs" />
+			<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+				Rated <span itemprop="ratingValue">5</span> out of 
+				<span itemprop="bestRating">5</span></span> by 
+				<span itemprop="author">snowy8s</span> from
+				<span itemprop="name">great absorbency and product</span>
+				<span itemprop="description">Bought these for bed wetting use and for the absorbency rating and so far they have been great. NO Leaks so far in multiple sleeping positions. For a heavier wetter, they can hold A-LOT and will make it till morning without changing. I don&apos;t mind the thickness if it means less changing. Fit is ok. Wider in the middle which is great and wider padding zones in the top front and back of the diaper for better leak protection(works well for bed wetting). The tapes hold very well just not so re-adjustable, 1-2 re-adjusts and they lose hold. The only downers I can find with the fit and product is around the waistband. It needs about an 1 to 1 1/2 inches more material for the waistband so that pants and other bottoms can help hold the diaper more snugly around the waist. I am assuming they made it a low-rise style for discreetness. If your wearing these I wouldn&apos;t worry about discreet. And 2 is the diaper needs some odor control.
+Other than that i will be using and recommending the north shore brand over Abena M4. Hope this helps make someones decision.
+			</span>
+				
+				<div class="bvseo-pubdate">Date published: 2015-09-01</div>
+				<meta itemprop="datePublished" content="2015-09-01" />
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (document.getElementById('bvseo-reviewsSection')) {
+			document.getElementById('bvseo-reviewsSection').style.display = 'none';
+		}
+	</script>
+	<!--end-reviews-->
+	
+	<!--begin-pagination-->
+	<ul id="bvseo-paginationSection">
+		<li class="bvseo-paginationItem"><a class="bvseo-paginationLink" href="http://www.northshorecare.com/diapers/overnites1/northshore-airsupreme-briefs.html?bvrrp=Main_Site-en_US/reviews/product/2/D068.htm">NorthShore AirSupreme Briefs Reviews - page 2</a></li>
+	</ul>
+	<!--end-pagination-->
+
+
+<ul id="BVSEO_meta" style="display:none!important">
+	<li data-bvseo="bvDateModified">2016-03-21T06:25CST</li>
+	<li data-bvseo="ps">bvseo_cps, prod_bvrr, vn_cps_3.2.0</li>
+	<li data-bvseo="cp">cp_1, bvpage1</li>
+	<li data-bvseo="co">co_hasreviews, tv_1, tr_152</li>
+	<li data-bvseo="cf">loc_en_US, sid_D068, PRD, sort_relevancy</li>
+	<li data-bvseo="diagnostics">clientName_northshorecaresupply</li>
+</ul>
+	
+<!--end-bvseo-reviews-->
+<ul id="BVSEOSDK" style="display:none;">
+	<li id="vn">bvseo-1.0.1.3-beta</li>
+	<li id="sl">bvseo-p</li>
+	<li id="mt">bvseo-CLOUD</li>
+	<li id="et">bvseo-142ms</li>
+	<li id="ct">bvseo-REVIEWS</li>
+	<li id="st">bvseo-PRODUCT</li>
+	<li id="am">bvseo-getContent</li>
+</ul></div>
+<script type="text/javascript">
+  $BV.ui( 'rr', 'show_reviews', {
+    doShowContent : function () {
+      // If the container is hidden (such as behind a tab), // put code here to make it visible (open the tab).
+jQuery('.description').removeClass('active');
+jQuery('.additional').removeClass('active');
+jQuery('.review_tab').addClass('active');
+jQuery('.questions_tab').removeClass('active');
+jQuery('#description').removeClass('active').css('display','none');
+jQuery('#additional').removeClass('active').css('display','none');
+jQuery('#review_tab').addClass('active').css('display','block');
+jQuery('#questions_tab').removeClass('active').css('display','none');
+
+var topPos = document.getElementById('BVRRContainer').offsetTop;
+window.scrollTo(0, topPos - 175);
+return false;
+    }
+  });    
+</script>
+</div>
+                    </div>
+                                        <div id="questions_tab" class="content tab-content">
+                        <div>
+<div id="BVQASummaryContainer"></div>
+<div id="BVQAContainer">
+    <!--begin-bvseo-questions-->
+	<!--begin-questions-->
+	<div id="bvseo-questionsSection">
+		<div class="bvseo-question-answer" data-questionid="2614741">
+			<h2 class="bvseo-question">
+				I am curious on what the box looks like but that was answered but for the statement on returning address is it inside the box or the out side This is what I really need to know plz help&nbsp;
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: TeenInNeed</div>
+			
+			<div class="bvseo-answer" data-answerid="3520654">
+				The packing slip with the order information is inside the box. &nbsp;On the outside of the box will be a FedEx shipping label. &nbsp;Our return address is on the label and is shown as NorthShore/Samela Inc.
+				<div class="bvseo-author">Answered by: NorthShoreCare</div>
+				<div class="bvseo-pubdate">Date published: 2016-02-09</div>
+			</div>
+		</div>
+		<div class="bvseo-question-answer" data-questionid="2378515">
+			<h2 class="bvseo-question">
+				My husband has chronic bowel incontinence, we have tried men&apos;s depends and they do not hold everything, bowel comes up over the top of the waist band in the back and out around the legs. Could please recommend a product for me.
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: Chery</div>
+			
+			<div class="bvseo-answer" data-answerid="3271674">
+				One of the most important factors when dealing with bowel incontinence is fit. A tab style fitted brief that can be refastened to obtain the most secure fit to contain voids would be an ideal solution. The NorthShore AirSupreme Fitted Brief is a very good solution. You can also consider adding a booster pad to the undergarment for additional protection. Please contact us for a sample at your earliest convenience. Our customer service number is 800-563-0161, we would be happy to further discuss your husband&apos;s needs. We hope to assist you soon!
+				<div class="bvseo-author">Answered by: NorthShoreCare</div>
+				<div class="bvseo-pubdate">Date published: 2015-10-01</div>
+			</div>
+		</div>
+		<div class="bvseo-question-answer" data-questionid="2232491">
+			<h2 class="bvseo-question">
+				What kind of packaging will they arrive in? I know it says discreet, but I need to know what to expect.
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: Tyler0327</div>
+			
+			<div class="bvseo-answer" data-answerid="3115195">
+				All orders from NorthShore Care Supply ship in plain, unmarked boxes or envelopes to maintain your privacy. &nbsp;The return address states our parent company name of &quot;Samela, Inc./NorthShore&quot;.
+				<div class="bvseo-author">Answered by: NorthShoreCare</div>
+				<div class="bvseo-pubdate">Date published: 2016-02-03</div>
+			</div>
+		</div>
+		<div class="bvseo-question-answer" data-questionid="2141054">
+			<h2 class="bvseo-question">
+				How many friefs in a package?
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: Marc</div>
+			
+			<div class="bvseo-answer" data-answerid="2994568">
+				It depends on the size. X-Small and Small are 20 diapers per bag. Medium, Large and X-Large are 15 diapers per bag.
+				<div class="bvseo-author">Answered by: NorthShoreCare</div>
+				<div class="bvseo-pubdate">Date published: 2015-04-24</div>
+			</div>
+		</div>
+		<div class="bvseo-question-answer" data-questionid="2244238">
+			<h2 class="bvseo-question">
+				What material is the outside made of?
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: Pamm</div>
+			
+		</div>
+		<div class="bvseo-question-answer" data-questionid="2535728">
+			<h2 class="bvseo-question">
+				Is there a standard reference for sizing by weight? &nbsp;My mother is 5&apos;5&quot; &amp; 136 lbs. &nbsp;Would you recommend med or lg size?
+			</h2>
+			<div class="bvseo-question-detail">
+				
+			</div>
+			<div class="bvseo-author">Asked by: Cate</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+		if (document.getElementById('bvseo-questionsSection')) {
+			document.getElementById('bvseo-questionsSection').style.display = 'none';
+		}
+	</script>
+	<!--end-questions-->
+
+
+<ul id="BVSEO_meta" style="display:none!important">
+	<li data-bvseo="bvDateModified">2016-03-21T06:38CST</li>
+	<li data-bvseo="ps">bvseo_cps, prod_bvqa, vn_cps_3.2.0</li>
+	<li data-bvseo="cp">cp_1, bvpage1</li>
+	<li data-bvseo="co">co_hasquestionsanswers, tq_6</li>
+	<li data-bvseo="cf">loc_en_US, sid_D068, PRD, sort_recentAnswersFirst</li>
+	<li data-bvseo="diagnostics">clientName_northshorecaresupply</li>
+</ul>
+
+<!--end-bvseo-questions-->
+<ul id="BVSEOSDK" style="display:none;">
+	<li id="vn">bvseo-1.0.1.3-beta</li>
+	<li id="sl">bvseo-p</li>
+	<li id="mt">bvseo-CLOUD</li>
+	<li id="et">bvseo-20ms</li>
+	<li id="ct">bvseo-QUESTIONS</li>
+	<li id="st">bvseo-PRODUCT</li>
+	<li id="am">bvseo-getContent</li>
+</ul></div>
+<script type="text/javascript">
+  $BV.ui( 'qa', 'show_questions', {
+    doShowContent : function () {
+      // If the container is hidden (such as behind a tab), // put code here to make it visible (open the tab).
+jQuery('.description').removeClass('active');
+jQuery('.additional').removeClass('active');
+jQuery('.review_tab').removeClass('active');
+jQuery('.questions_tab').addClass('active');
+jQuery('#description').removeClass('active').css('display','none');
+jQuery('#additional').removeClass('active').css('display','none');
+jQuery('#review_tab').removeClass('active').css('display','none');
+jQuery('#questions_tab').addClass('active').css('display','block');
+
+                    }
+  });    
+</script>
+</div>
+                    </div>
+                                    </div>
+            
+            
+            <div class="recommendation-spiffs">
+                <div><!--{WIDGET_ENTERPRISE_BANNER_37b7d41cb712c4510de04101d70840df}--><div class="widget widget-banner">
+        <ul>
+            <li><div class="spiff">
+<style>
+a.ex1:hover, a.ex1:active {color: #F88701;}
+</style>
+<a href="/boosters1.html"><img src="http://www.northshorecare.com/media/wysiwyg/spiffs/Underpads.jpg"></a>
+<p>	Booster pads extend the life and increase absorbency of pull-ons and fitted briefs.</p>
+<a class="ex1" href="/boosters1.html">Shop Now </a>
+</div></li>
+            <li><div class="spiff">
+<style>
+a.ex1:hover, a.ex1:active {color: #F88701;}
+</style>
+<a href="/chux1.html"><img src="http://www.northshorecare.com/media/wysiwyg/spiffs/pdp_NSunderpad.png"></a>
+<p>Our Blue Underpads offer leakage protection for bedding, furniture and wheelchairs. </p>
+<a class="ex1" href="/chux1.html">Shop Now </a>
+</div></li>
+        </ul>
+</div>
+<!--/{WIDGET_ENTERPRISE_BANNER_37b7d41cb712c4510de04101d70840df}--></div>            </div>
+        </div>
+    </form>
+    
+<script type="text/javascript">
+    $BV.ui( 'rr', 'inline_ratings', {
+        productIds : {
+
+                'E009' : {
+        url : 'http://www.northshorecare.com/medpride-general-purpose-latex-gloves-powder-free.html'
+    },            'D002' : {
+        url : 'http://www.northshorecare.com/booster-pads-northshore.html'
+    },            'U029' : {
+        url : 'http://www.northshorecare.com/underpad-northshore-magicsorb.html'
+    },            'E063' : {
+        url : 'http://www.northshorecare.com/odorno-heavy-duty-odor-barrier-disposal-bags-2-gallon.html'
+    },            'U009' : {
+        url : 'http://www.northshorecare.com/northshore-champion-tuckable-washable-underpads-2.html'
+    }    
+    },
+    containerPrefix : 'BVRRInlineRating-related'
+    });
+</script>
+<div class="box-collateral box-related col-5-grid">
+    <div class="box-title">
+        <h3>Frequently Purchased With This Item:</h3>
+    </div>
+                    <ul class="products-grid">
+                <li class="item first">
+            
+<div class="item-info">
+    <a href="http://www.northshorecare.com/northshore-champion-tuckable-washable-underpads-2.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/c/h/champion-washable-tuckable-underpad.jpg" width="135" height="135" alt="NorthShore Champion Tuckable Washable Underpads" title="NorthShore Champion Tuckable Washable Underpads" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/northshore-champion-tuckable-washable-underpads-2.html">NorthShore Champion Tuckable Washable Underpads</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-related-U009"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-2681-related"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-2681-related">
+                                            <span class="price">$15.99</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/northshore-champion-tuckable-washable-underpads-2.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+</div>
+        </li>
+                            <li class="item">
+            
+<div class="item-info">
+    <a href="http://www.northshorecare.com/booster-pads-northshore.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/n/o/northshore-booster-parent.png" width="135" height="135" alt="NorthShore Booster Pads &amp; Contoured Diaper Doublers" title="NorthShore Booster Pads &amp; Contoured Diaper Doublers" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/booster-pads-northshore.html">NorthShore Booster Pads &amp; Contoured Diaper Doublers</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-related-D002"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13405-related"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13405-related">
+                                            <span class="price">$7.30</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/booster-pads-northshore.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+</div>
+        </li>
+                            <li class="item">
+            
+<div class="item-info">
+    <a href="http://www.northshorecare.com/underpad-northshore-magicsorb.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/1/7/1743.jpg" width="135" height="135" alt="NorthShore MagicSorb Air Disposable Underpads" title="NorthShore MagicSorb Air Disposable Underpads" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/underpad-northshore-magicsorb.html">NorthShore MagicSorb Air Disposable Underpads</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-related-U029"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13551-related"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13551-related">
+                                            <span class="price">$13.75</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/underpad-northshore-magicsorb.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+</div>
+        </li>
+                            <li class="item">
+            
+<div class="item-info">
+    <a href="http://www.northshorecare.com/odorno-heavy-duty-odor-barrier-disposal-bags-2-gallon.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/o/d/odorno-2gallon.jpg" width="135" height="135" alt="OdorNo Heavy Duty Odor Barrier Disposal Bags, 2 Gallon" title="OdorNo Heavy Duty Odor Barrier Disposal Bags, 2 Gallon" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/odorno-heavy-duty-odor-barrier-disposal-bags-2-gallon.html">OdorNo Heavy Duty Odor Barrier Disposal Bags, 2 Gallon</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-related-E063"></div>
+        </div>
+        
+
+                            <div class="price-box">
+                <p class="minimal-price">
+                                            <span class="price-label">Starting at:</span>
+                                                                                        <span class="price" id="product-minimal-price-13957-related">
+                        $8.79                    </span>
+                                    </p>
+            </div>
+                                        <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/odorno-heavy-duty-odor-barrier-disposal-bags-2-gallon.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+</div>
+        </li>
+                            <li class="item last">
+            
+<div class="item-info">
+    <a href="http://www.northshorecare.com/urine-off-multi-purpose-odor-and-stain-remover.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/5/9/5992.jpg" width="135" height="135" alt="Urine-Off Multi-Purpose Odor and Stain Remover" title="Urine-Off Multi-Purpose Odor and Stain Remover" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/urine-off-multi-purpose-odor-and-stain-remover.html">Urine-Off Multi-Purpose Odor and Stain Remover</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-related-E055"></div>
+        </div>
+        
+
+                            <div class="price-box">
+                <p class="minimal-price">
+                                            <span class="price-label">Starting at:</span>
+                                                                                        <span class="price" id="product-minimal-price-12530-related">
+                        $9.95                    </span>
+                                    </p>
+            </div>
+                                        <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/urine-off-multi-purpose-odor-and-stain-remover.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+</div>
+        </li>
+                </ul>
+                <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+
+</div>
+    
+<script type="text/javascript">
+    $BV.ui( 'rr', 'inline_ratings', {
+        productIds : {
+                'D100' : {
+        url : 'http://www.northshorecare.com/abena-delta-form-breathable-briefs-level-3.html'
+    },            'D055' : {
+        url : 'http://www.northshorecare.com/tranquility-smartcore-briefs.html'
+    },            'D102' : {
+        url : 'http://www.northshorecare.com/molicare-premium-soft-super-briefs.html'
+    },            'D095' : {
+        url : 'http://www.northshorecare.com/abena-abri-form-premium-briefs-level-3.html'
+    },            'D096' : {
+        url : 'http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html'
+    }    
+    },
+    containerPrefix : 'BVRRInlineRating-upsell'
+    });
+</script>
+
+<div class="box-collateral box-up-sell col-5-grid">
+    <div class="box-title">
+        <h3>Customers Who Viewed This Item Also Viewed:</h3>
+    </div>
+                        <ul class="products-grid">
+                                <li class="item first">
+                    
+<a href="http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/4/3/43068-parent.png" width="135" height="135" alt="Abena Abri-Form Premium Briefs Level 4" title="Abena Abri-Form Premium Briefs Level 4" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html">Abena Abri-Form Premium Briefs Level 4</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-upsell-D096"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13498-upsell"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13498-upsell">
+                                            <span class="price">$22.50</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+                </li>
+                                    <li class="item">
+                    
+<a href="http://www.northshorecare.com/northshore-airsupreme-briefs.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/a/i/airsupreme-parent-bag.jpg" width="135" height="135" alt="NorthShore AirSupreme Briefs" title="NorthShore AirSupreme Briefs" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/northshore-airsupreme-briefs.html">NorthShore AirSupreme Briefs</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-upsell-D068"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13534-upsell"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13534-upsell">
+                                            <span class="price">$18.70</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/northshore-airsupreme-briefs.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+                </li>
+                                    <li class="item">
+                    
+<a href="http://www.northshorecare.com/molicare-premium-soft-super-briefs.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/m/o/molicare-premium-soft-super-bag.jpg" width="135" height="135" alt="MoliCare Premium Soft Super Briefs" title="MoliCare Premium Soft Super Briefs" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/molicare-premium-soft-super-briefs.html">MoliCare Premium Soft Super Briefs</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-upsell-D102"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13504-upsell"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13504-upsell">
+                                            <span class="price">$32.75</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/molicare-premium-soft-super-briefs.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+                </li>
+                                    <li class="item">
+                    
+<a href="http://www.northshorecare.com/atn1.html?___SID=U" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/a/t/atn-parent-image.jpg" width="135" height="135" alt="Tranquility ATN (All Thru the Night) Briefs" title="Tranquility ATN (All Thru the Night) Briefs" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/atn1.html?___SID=U">Tranquility ATN (All Thru the Night) Briefs</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-upsell-D062"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13465-upsell"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13465-upsell">
+                                            <span class="price">$8.79</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/atn1.html?___SID=U')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+                </li>
+                                    <li class="item last">
+                    
+<a href="http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html" class="product-image">
+        <img src="http://www.northshorecare.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/4/3/43068-parent.png" width="135" height="135" alt="Abena Abri-Form Premium Briefs Level 4" title="Abena Abri-Form Premium Briefs Level 4" />
+    </a>
+    <div class="product-details">
+        <h3 class="product-name"><a href="http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html">Abena Abri-Form Premium Briefs Level 4</a></h3>
+        <div class="ratings">
+            <div id="BVRRInlineRating-upsell-D096"></div>
+        </div>
+        
+
+                        
+    <div class="price-box"><span class="label" id="configurable-price-from-13498-upsell"><span class="configurable-price-from-label">Starting At:</span></span>
+                                                                                                        <span class="regular-price" id="product-price-13498-upsell">
+                                            <span class="price">$22.50</span>                                    </span>
+                                    
+            </div>
+
+                    <button type="button" title="View Details" class="button btn-cart details" onclick="setLocation('http://www.northshorecare.com/abena-abri-form-premium-briefs-level-4.html')">
+                <span>
+                    <span>View Details</span>
+                </span>
+            </button>
+            </div>
+                </li>
+                    </ul>
+                <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+</div>
+            </div>
+
+<script type="text/javascript">
+
+
+//<![CDATA[
+    
+    var og_settings = {
+        "page_type":"1",
+        "cart":{
+            "products":[
+            ],
+            "subtotal":0.00,
+            "shipping_total":0.00,
+            "tax_total":0.00,
+            "order_total":0.00
+
+        }
+    };
+
+    
+    var productAddToCartForm = new VarienForm('product_addtocart_form');
+    productAddToCartForm.submit = function(button, url) {
+        if (this.validator.validate()) {
+            var form = this.form;
+            var oldUrl = form.action;
+
+            if (url) {
+               form.action = url;
+            }
+            var e = null;
+
+            try {
+
+                jQuery('.btn-cart span span').html('ADDING...');
+
+                jQuery.ajax({
+                    type: "POST",
+                    url: 'http://www.northshorecare.com/' + 'ajaxcart/cart/add',
+                    data: Form.serialize(this.form), 
+                    dataType: "json",
+                    complete: function(xhr) {
+                    },
+                    success: function(xhr) {
+
+                        jQuery('.top-cart').remove();
+                        jQuery('header .utility').append(xhr.minicart.html);
+                        jQuery('.top-cart').addClass('over');
+                        jQuery('#topCartContent').addClass('over').show().css('z-index',500);
+                        setTimeout(function(){ jQuery('.top-cart').removeClass('over'); jQuery('#topCartContent').removeClass('over').hide(); }, 12000);
+
+                        jQuery('.header-panel').DropIt({
+                            'speed': 300,
+                            'delay': 100,
+                            'triggerSelector' : '.top-cart',
+                            'menuSelector' : '#topCartContent'
+                        });
+
+
+                        jQuery('.btn-cart').removeAttr('disabled');
+                        jQuery('.btn-cart span span').html('ADD TO CART');
+
+                        try{
+                            response = eval('(' + xhr.responseText + ')');
+                        } catch (e) {
+                            response = {};
+                        }
+
+
+                        // console.log(xhr.minicart.total);
+                        // jQuery('.top-cart .amount span').html(xhr.minicart.total);
+                        // alert(xhr.message);
+
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown) {
+    
+                    }
+                });
+
+
+
+
+            } catch (e) {
+            }
+            this.form.action = oldUrl;
+            if (e) {
+                throw e;
+            }
+
+            if (button && button != 'undefined') {
+                button.disabled = true;
+            }
+        }
+    }.bind(productAddToCartForm);
+
+    productAddToCartForm.submitLight = function(button, url){
+        if(this.validator) {
+            var nv = Validation.methods;
+            delete Validation.methods['required-entry'];
+            delete Validation.methods['validate-one-required'];
+            delete Validation.methods['validate-one-required-by-name'];
+            // Remove custom datetime validators
+            for (var methodName in Validation.methods) {
+                if (methodName.match(/^validate-datetime-.*/i)) {
+                    delete Validation.methods[methodName];
+                }
+            }
+
+            if (this.validator.validate()) {
+                if (url) {
+                    this.form.action = url;
+                }
+                this.form.submit();
+            }
+            Object.extend(Validation.methods, nv);
+        }
+    }.bind(productAddToCartForm);
+//]]>
+</script>
+<script>
+var mytimer;
+function kickOff(){
+	mytimer=setInterval(function(){meatPotatoes();},100);
+}
+function meatPotatoes(){
+  if (typeof ga == 'function') { 
+    ga('tealium_0.set', 'contentGroup1', 'Product Page'); 
+    ga('tealium_0.send', 'event', 'Product Page', 'Content Group', {nonInteraction: true});
+    myStopFunction();
+  }
+}
+function myStopFunction(){
+  clearInterval(mytimer);
+}
+kickOff();
+
+jQuery(document).ready(function(){
+	setTimeout(function(){myStopFunction()},1000);
+});
+</script>            </div>
+        </div>
+	        </div>
+
+    <footer class="footer-container">
+    <div class="top">
+        <div class="centering">
+            <div class="tertiary-nav">
+                                <div class="column">
+            <div class="inner">
+                <h4>NorthShore</h4>
+                <ul>
+                                            <li><a href="http://www.northshorecare.com/northshore/about-northshore" title="About NorthShore">About NorthShore</a></li>
+                                            <li><a href="http://www.northshorecare.com/northshore/contact" title="Contact Us">Contact Us</a></li>
+                                            <li><a href="http://www.northshorecare.com/northshore/promotions" title="Promotions">Promotions</a></li>
+                                            <li><a href="http://www.northshorecare.com/northshore/reviews" title="NorthShore Reviews">NorthShore Reviews</a></li>
+                                            <li><a href="http://www.northshorecare.com/northshore/price-list" title="Price List">Price List</a></li>
+                                    </ul>
+            </div>
+        </div>
+            <div class="column">
+            <div class="inner">
+                <h4>Customer Service</h4>
+                <ul>
+                                            <li><a href="http://www.northshorecare.com/customer-service/faq" title="FAQ">FAQ</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/information-request" title="Information Request">Information Request</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/return-policy" title="Return policy">Return policy</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/shipping-policy" title="Shipping Policy">Shipping Policy</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/payment-options" title="Payment Options">Payment Options</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/auto-ship" title="Auto-Ship">Auto-Ship</a></li>
+                                            <li><a href="http://www.northshorecare.com/customer-service/my-orders" title="My Orders">My Orders</a></li>
+                                    </ul>
+            </div>
+        </div>
+                </div>
+            <div class="newsletter-block">
+                
+<form action="https://www.northshorecare.com/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+    <div class="form-subscribe form-list">
+        <h4>Newsletter Sign-Up</h4>
+
+        <p>Sign up for our newsletter to receive product updates and exclusive offers.</p>
+
+        <div class="field">
+        	<label for="newsletter">Email Address</label>
+            <input name="email" type="text" id="newsletter" value="" class="input-text required-entry validate-space validate-email" />
+            <button type="submit" class="button darkblue button-adjust" title="Subscribe"><span><span>Sign Up</span></span></button>
+            <input type="hidden" name="page_url" value="/diapers/overnites1/northshore-airsupreme-briefs.html"/><input type="hidden" value="Footer" name="source" /><input type="hidden" name="created_at" value="2016-03-21 15:14:22"/><input type = "hidden" name = "offer" value = "" />        </div>
+    </div>
+</form>
+<script type="text/javascript">
+    //<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+</script>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <ul>
+	<li><a class="blog" href="/blog/">Blog</a></li>
+	<li><a class="facebook" href="https://www.facebook.com/northshorecaresupply">Facebook</a></li>
+	<li><a class="twitter" href="https://twitter.com/NorthShoreCare">Twitter</a></li>
+	<li><a class="googleplus" href="https://plus.google.com/+Northshorecare">Google Plus</a></li>
+	<li><a class="youtube" href="https://www.youtube.com/user/NorthShoreCareSupply">YouTube</a></li>
+</ul>                </div>
+            </div>
+            <div class="contact-info">
+                <span id='LP_DIV_1417646582312' class="livechat"></span>
+
+                <p><span class="phone"><span>Call Us:</span> <span style="display:inline-block;font-weight:bold;">(800) 563-0161</span></span><br />
+<div style="margin-top:-15px;text-align:right;margin-right:50px;"><span>Se Habla Español</span></div></p>
+<!--
+<p class="hours">Hours:<br /> Weekdays: 7am - 6pm Central<br /> Saturday: 8am - 2pm<br /> Sunday: 8am - Noon</p>
+-->
+<div style="width:175px;"  class="hours">
+<span style="font-weight:bold;">Hours:</span> <span style="color:#555;display:inline-block;float:right;text-align:left;margin-right:-2px;">Central Time</span><br />
+<hr style="width:175px;margin:3px;padding:0;" />
+Weekdays: <span style="display:inline-block;float:right;text-align:left;">7am - 6pm</span><br style="clear:both" />
+Weekends: <span style="display:inline-block;float:right;text-align:left;">8am - 2pm</span><br style="clear:both" />
+</div><br />
+
+<p class="address">Fax: (847) 559 - 0098<br /> Email: <a href="mailto:info@northshorecare.com?Subject=NorthShore%20Care%20Supply%20Website%20Inquiry">info@northshorecare.com</a><br /> 1200 Barclay Blvd<br /> Buffalo Grove, IL 60089</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="centering">
+            <div class="footer-logos">
+                <ul>
+<li><a target="_blank" href="https://www.trustpilot.com/review/www.northshorecare.com?utm_source=www.northshorecare.com&utm_medium=category&utm_campaign=plugins"><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/trustplot.png" alt="Trustplot" title="TrustPilot Reviews of NorthShore Care Supply" border="0" /></a></li>
+<!--<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/bbb.png" alt="BBB Accredited Business" /></li>-->
+<li><a target="_blank" id="bbblink" class="ruhzbus" href="https://www.bbb.org/chicago/business-reviews/hospital-and-medical-equipment-and-supplies/northshore-care-supply-in-buffalo-grove-il-88205587#bbbseal" title="NorthShore Care Supply, Hospital & Medical Equipment & Supplies, Buffalo Grove, IL" style="display: block;position: relative;overflow: hidden; width: 100px; height: 45px; margin: 0px; padding: 0px;"><img style="padding: 0px; border: none;" id="bbblinkimg" src="https://seal-chicago.bbb.org/logo/ruhzbus/northshore-care-supply-88205587.png" width="200" height="45" alt="NorthShore Care Supply, Hospital & Medical Equipment & Supplies, Buffalo Grove, IL" /></a><script type="text/javascript" async>var bbbprotocol = ( ("https:" == document.location.protocol) ? "https://" : "http://" ); document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-chicago.bbb.org' + unescape('%2Flogo%2Fnorthshore-care-supply-88205587.js') + "' type='text/javascript' %3E%3C/script%3E"));</script></li>
+<li><a target="_blank" href="http://www.aginglifecare.org/"><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/ALCA_CorpPartner_Logo_TMv2.png" alt="NAPGCM Certified" title="NAPGCM Certified Member"  border="0" /></a></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/visa.png" alt="Visa" border="0" /></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/mastercard.png" alt="Mastercard" border="0" /></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/discover.png" alt="Discover" border="0" /></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/amex.png" alt="American Express" border="0" /></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/paypal.png" alt="Paypal" border="0" /></li>
+<li><a target="_blank" href="https://www.paypal.com/webapps/mpp/billmelater-productoverview"><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/billmelater.png" alt="Bill Me Later" border="0"  /></a></li>
+<li><img src="http://www.northshorecare.com/media/wysiwyg/footer-badges/amazon.png" alt="Amazon Payments" border="0" /></li>
+</ul>
+
+<script type="text/javascript" src="/media/wysiwyg/js/hotjar.js"></script>            </div>
+            <address class="copyright">Copyright &#0169; <script>document.write(new Date().getFullYear())</script> Samela, Inc. d/b/a NorthShore Care Supply. All rights reserved.</address>
+            <ul class="bottom-links">
+<li><a title="Sitemap" href="http://www.northshorecare.com/catalog/seo_sitemap/category">Sitemap</a></li>
+<li><a title="Privacy Policy" href="http://www.northshorecare.com/privacy-policy">Privacy Policy</a></li>
+<li><a title="Terms of Use" href="http://www.northshorecare.com/terms-of-use">Terms of Use</a></li>
+</ul>        </div>
+    </div>
+</footer>
+    
+
+
+<script src="//uitemplatev3.celebros.com/uitemplate/Scripts/jquery.1.7.Celebros.min.js" type="text/javascript"></script>
+<script src="//uitemplatev3.celebros.com/uitemplate/Scripts/jquery-ui-1.8.13-Celebros.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://Northshore-ac.celebros.com/AutoComplete/Scripts/CelebrosAutoCompleteV3c.js"></script>
+<style>#searchSuggestions{max-width: 852px;width: 952px!important; left: -486px !important;}</style>
+<script type="text/javascript">
+	//<![CDATA[
+		 CelebrosAutoCompleteV3("Northshore", "search",  onSelect, "Northshore-ac.celebros.com", "Northshore-ac.celebros.com", {acShowType: "regular"});
+        function onSelect(aParameter)
+        { 
+            if ((aParameter["SelectedURL"]!="") &&(aParameter["IsAutoComplete"]))
+            {   
+		   var sCmp = (aParameter["SelectedURL"].indexOf("?") == -1) ? "?" : "&";
+   		  window.location = aParameter["SelectedURL"] + sCmp + "cmp=cel" + "&trigger=ac";
+            }
+            else if (window['UITemplateConfigurationMaster'] != undefined) 
+            {
+           var e = jQueryCel.Event("keypress");
+e.which = 13; e.keyCode = 13;
+			jQueryCel('#search').trigger(e);
+			return false;
+            }
+            
+					
+			else
+			{ 
+                  var targetLocation = "http://www.northshorecare.com/catalogsearch/result/?q="+encodeURIComponent(aParameter["SelectedQuery"])+"#1&k="+encodeURIComponent(aParameter["SelectedQuery"]) +"&profile=Products";
+               
+                  if (aParameter["IsAutoComplete"].toString().toLowerCase() == "true") 
+	                  targetLocation += "&Trigger=ac";
+                  window.location = targetLocation;
+			}
+		}
+		
+		var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search Item Number, Keyword or Question');
+		
+	//]]>
+	</script>
+<script type="text/javascript">
+    og_settings = {
+        "page_type": "1",
+        "logged_in": false,
+        "impulse_upsell": true,
+        "default_frequency": {} 
+      }
+    
+    document.observe("dom:loaded", function() {
+        if(window.OG && OG.setProduct) {
+            $$('select.super-attribute-select').each(function(selector) {
+                Event.observe(selector,'change', function(){
+                    var selectedOptId = selector.getValue();
+                    $H(spConfig.config.attributes).each(function(attribute){
+                        $H(attribute.value.options).each(function(option){
+                            var x = option.value;
+                            var optId = option.value.id;
+                            if (selectedOptId === optId) {
+                                var productId = option.value.products;
+                                var qty = isNaN($F('qty')) ? "1" : $F('qty');
+                                OG.setProduct({
+                                    id: parseInt(productId),
+                                    module: "pdp",
+                                    quantity: qty
+                                });
+                            throw $break;
+                            }
+                        });
+                    });
+                });
+            });
+        }
+    });
+</script>
+<script type="text/javascript" src="https://staging.static.ordergroove.com/admin@admin.com/main.js"></script>
+    <script type="text/javascript">
+  var _sf_async_config = { uid: 30602, domain: 'northshorecare.com', useCanonical: true };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<style>
+.bv-rating-label { bottom:0!important;display:inline-block;text-decoration: none!important; }.bv-rating-label:hover { text-decoration: none!important; }.bv-cleanslate .bv-core-container-185 a.bv-rating-stars-container .bv-rating-stars {  bottom: 0!important;}
+</style><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"655614796d","applicationID":"10354485","transactionName":"Z11QbUcHCxJXBxYIV14Xc1pBDwoPGRQDBl1TWVFRUEkXBEcRBxJMH0hAVlYDFhI=","queueTime":0,"applicationTime":143,"atts":"SxpTGw8dGBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

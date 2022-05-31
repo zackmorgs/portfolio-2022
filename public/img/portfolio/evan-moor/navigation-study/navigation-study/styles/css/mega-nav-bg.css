@@ -1,0 +1,56 @@
+.mega-nav-trigger .mega-nav .icon.icon-nav-bg {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Grey-Icon-Sprite.png");
+}
+.mega-nav-trigger[href*="/c/75/reading-foundations"] .mega-nav .icon.icon-nav-bg {
+  background-position: 0 -161px;
+  width: 122px;
+  height: 134px;
+}
+.mega-nav-trigger[href*="/c/86/reading-comprehension"] .mega-nav .icon.icon-nav-bg {
+  background-position: -150px -166px;
+  width: 160px;
+  height: 131px;
+}
+.mega-nav-trigger[href*="/c/98/language"] .mega-nav .icon.icon-nav-bg {
+  background-position: -433px 0;
+  width: 179px;
+  height: 141px;
+}
+.mega-nav-trigger[href*="/c/108/writing"] .mega-nav .icon.icon-nav-bg {
+  background-position: -366px -168px;
+  width: 147px;
+  height: 135px;
+}
+.mega-nav-trigger[href*="/c/117/math"] .mega-nav .icon.icon-nav-bg {
+  background-position: -637px -6px;
+  width: 136px;
+  height: 136px;
+}
+.mega-nav-trigger[href*="/c/127/science"] .mega-nav .icon.icon-nav-bg {
+  background-position: -169px -3px;
+  width: 127px;
+  height: 134px;
+}
+.mega-nav-trigger[href*="/c/193/social-studies"] .mega-nav .icon.icon-nav-bg {
+  background-position: -312px -2px;
+  width: 104px;
+  height: 137px;
+}
+.mega-nav-trigger[href*="/c/136/teacher-resources"] .mega-nav .icon.icon-nav-bg {
+  background-position: -541px -162px;
+  width: 137px;
+  height: 137px;
+}
+.mega-nav-trigger[href*="/c/211/parent-resources"] .mega-nav .icon.icon-nav-bg {
+  background-position: -3px -3px;
+  width: 145px;
+  height: 137px;
+}
+.mega-nav-trigger .mega-nav .icon {
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=mega-nav-bg.css.map */

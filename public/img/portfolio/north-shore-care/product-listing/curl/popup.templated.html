@@ -1,0 +1,64 @@
+<div class="bv-core-container-190">
+    <div data-bv-v="histogramPopup:3" class="bv-popup bv-popup-histogram bv-shared bv-popup-container loading" aria-expanded="true" style="position: relative !important;">
+        <!--[if lt IE 7]> <div class="bv-compat bvie6 bvie-lt8 bvie"> <![endif]-->
+        <!--[if IE 7]> <div class="bv-compat bvie7 bvie-lt8 bvie"> <![endif]-->
+        <!--[if IE 8]> <div class="bv-compat bvie8 bvie"> <![endif]-->
+        <!--[if IE 9]> <div class="bv-compat bvie9 bvie"> <![endif]-->
+        <!--[if gt IE 9]> <!-->
+        <div class="bv-compat">
+            <!--<![endif]-->
+            <div class="bv-popup-histogram-ratings" role="tooltip" aria-expanded="false">
+                <table role="presentation">
+                    <tbody>
+                        <!-- start for each review stars -->
+                        <tr class="bv-focusable" tabindex="0">
+                            <td class="bv-popup-histogram-ratings-star" data-bv-histogram-rating-value="{{review-stars}}" role="presentation">
+                                {{review-stars}}
+                                <span class="bv-glyph">★</span>
+                                <span class="bv-off-screen">stars</span> 
+                            </td>
+                            <td class="bv-popup-histogram-ratings-bar" data-bv-histogram-rating-value="{{review-stars}}" role="presentation">
+                                <span class="bv-content-secondary-ratings-container"> 
+                                    <span class="bv-content-secondary-ratings-value" style="width:{{review-bar-width}}% !important;"></span>
+                                </span>
+                            </td>
+                            <td class="bv-popup-histogram-ratings-score" role="presentation">
+                                {{review-count}} <span class="bv-off-screen">reviews</span>
+                            </td>
+                        </tr>
+                        <!-- below got removed from final product. -->
+                        <tr class="bv-data-loading">
+                            <td>
+                                <div class="sk-circle">
+                                  <div class="sk-circle1 sk-child"></div>
+                                  <div class="sk-circle2 sk-child"></div>
+                                  <div class="sk-circle3 sk-child"></div>
+                                  <div class="sk-circle4 sk-child"></div>
+                                  <div class="sk-circle5 sk-child"></div>
+                                  <div class="sk-circle6 sk-child"></div>
+                                  <div class="sk-circle7 sk-child"></div>
+                                  <div class="sk-circle8 sk-child"></div>
+                                  <div class="sk-circle9 sk-child"></div>
+                                  <div class="sk-circle10 sk-child"></div>
+                                  <div class="sk-circle11 sk-child"></div>
+                                  <div class="sk-circle12 sk-child"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- end for each review stars -->
+                    </tbody>
+                </table>
+                <!-- start action bar -->
+                <div class="bv-action-bar">
+                    <ul class="bv-toplevel-actions" role="presentation">
+                        <li class="bv-histogram-action">
+                            <button type="button" class="bv-read-review bv-focusable" onclick="return false;">Read {{total_review-count}} Reviews</button>
+                        </li>
+                    </ul>
+                </div>
+                <!--  end action bar -->
+            </div>
+            <!-- closing tags -->
+        </div>
+    </div>
+</div>

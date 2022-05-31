@@ -1,0 +1,1070 @@
+[
+	{
+		"name": "American Academy of Sleep Medicine",
+		"url": "https://aasm.org/",
+		"display_portfolio_view": true,
+		"actual_employer": "American Academy of Sleep Medicine",
+		"year": "2013, 2014",
+		"folder_path": "./aasm/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Official Website",
+				"media": [
+					{
+						"header_thumbnail": "aasm-header.png",
+						"graphic": "img/aasm/aasm.png",
+						"content_type": "desktop",
+						"caption":
+							"During my internship at AASM I was occasionally tasked to do maintenance to their official site. I was still learning their technology stack at the time so this provided an excellent learning experience with those technologies."
+					}
+				]
+			}
+		],
+		"logo":
+			"https://j2vjt3dnbra3ps7ll1clb4q2-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/aasm_logo_retina_mobile.png",
+		"sources": [
+			{
+				"name": "Internship",
+				"description": ""
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["Microsoft SQL Server", "C#", "HTML", "JavaScript", "CSS"],
+			"frameworks": ["ASP.NET", "Google Analytics"]
+		}
+	},
+	{
+		"name": "Trinity Insight",
+		"url": "https://www.trinityinsight.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./trinity-insight",
+		"logo": "img/trinity-insight/logo.png",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "trinityinsight.com",
+				"media": [
+					{
+						"graphic": "img/trinity-insight/current.png",
+						"content_type": "desktop",
+						"caption":
+							"During my time interning at Trinity Insight, their current website was undergoing development and I was a part of it. This work initially consisted of porting old content from their previous Wordpress installation I eventually wrote a bit of CSS for their site. I also implemented some very simple components on their site such as their significance calculator."
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": "WordPress",
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "American Muscle",
+		"url": "https://www.americanmuscle.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./turn5/american-muscle/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Mobile Product Page Layout Test (1 of 2)",
+				"media": [
+					{
+						"header_thumbnail": "",
+						"graphic": "img/american-muscle/Mobile Product Page Test 1/AM-MobilePDPLayoutTest-control.png",
+						"content_type": "mobile-fullview",
+						"caption":
+							"I loved working on this gorgeous site. This is the control variation, meaning it was the version I had to work on top of during the UX test."
+					},
+					{
+						"graphic":
+							"img/american-muscle/Mobile Product Page Test 1/AM-MobilePDPLayoutTest-variation2.png",
+						"content_type": "mobile-fullview",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/american-muscle/Mobile Product Page Test 1/AM-MobilePDPLayoutTest-variation3.png",
+						"content_type": "mobile-fullview",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/american-muscle/Mobile Product Page Test 1/AM-MobilePDPLayoutTest-variation4.png",
+						"content_type": "mobile-fullview",
+						"caption": ""
+					}
+				]
+			},
+			{
+				"name": "Mobile Product Page Layout Test (2nd)",
+				"media": [
+					{
+						"header_thumbnail": "",
+						"graphic": "img/american-muscle/mobile-pdp-1/AM-MobilePDPLayoutTest-control.png",
+						"content_type": "mobile",
+						"caption": "Control"
+					},
+					{
+						"graphic": "img/american-muscle/mobile-pdp-1/AM-MobilePDPLayoutTest-variation2.png",
+						"content_type": "mobile",
+						"caption": "Variation"
+					},
+					{
+						"graphic": "img/american-muscle/mobile-pdp-1/AM-MobilePDPLayoutTest-variation3.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/american-muscle/mobile-pdp-1/AM-MobilePDPLayoutTest-variation4 (1).png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/american-muscle/mobile-pdp-1/AM-MobilePDPLayoutTest-variation4.png",
+						"content_type": "mobile",
+						"caption": "img/american-muscle/sweepsteaks/T5-Sweepstakes-Form-Mobile-Control.png"
+					},
+					{
+						"graphic": "img/american-muscle/sweepsteaks/T5-Sweepstakes-Form-Mobile-Variation.png",
+						"content_type": "mobile",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Skis.com",
+		"url": "http://www.skis.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./skis.com/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Product Buy Box UI Study",
+				"media": [
+					{
+						"graphic": "img/skis-dot-com/SKI-Combo2-Controlvariation.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Combo3-Mobile.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Combo4-Controlvariation.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Combo2A.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Combo3-controllayout.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Combo4-final.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Desktop-Control-Final.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Helmet-Mobile-Control.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Mobile-Combo2.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Buy-Box-Mobile-Combo4-variationvariation.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Page-buy-Box-Combo2-Final.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/skis-dot-com/SKI-Product-Page-buy-Box-Combo4-variation.png",
+						"content_type": "mobile",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "SLEEP Meeting",
+		"url": "http://www.sleepmeeting.org/",
+		"display_portfolio_view": true,
+		"actual_employer": "American Academy of Sleep Medicine",
+		"logo": "img/aasm/sleep_logo.png",
+		"year": "2014",
+		"folder_path": "./aasm/sleep_logo.png",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Sleep Meeting 2013 Website",
+				"media": [
+					{
+						"graphic": "img/aasm/sleep2014.jpg",
+						"content_type": "desktop-zoom",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": ["SiteFinity"],
+			"languages": ["Microsoft SQL Server", "C#", "HTML", "JavaScript", "CSS"],
+			"frameworks": ["ASP.NET", "Modernizr", "jQuery", "Google Analytics"]
+		}
+	},
+	{
+		"name": "Beckers School Supplies",
+		"url": "https://www.shopbecker.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"logo": "https://www.shopbecker.com/_resources/www/beckers/images/logo.svg",
+		"folder_path": "./beckers/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Guest/Member Checkout UI Study",
+				"media": [
+					{
+						"graphic": "img/beckers/screenshots/cart_desktop.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/cart_mobile.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/desktop_account-billing.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/desktop_account-shipping.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/desktop_guest-billing.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/desktop_guest-shipping.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/login_desktop.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/login_mobile.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/mobile_account-billing.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/mobile_account-shipping.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/mobile_guest-billing.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/mobile_guest-shipping.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/review_desktop.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/beckers/screenshots/review_mobile.png",
+						"content_type": "mobile",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"languages": ["JavaScript", "CSS", "HTML"],
+			"frameworks": ["VWO", "jQuery", "Google Analytics"]
+		}
+	},
+	{
+		"name": "Bryn Mawr Medical Specialists Association",
+		"url": "http://bmmsa.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"logo": "img/bmmsa/logo.png",
+		"year": "2016",
+		"folder_path": "./bmmsa/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Mobile Navigation UI Study",
+				"media": [
+					{
+						"graphic": "img/bmmsa/screens/BMMSA-HeaderRedesign-header.jpg",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/bmmsa/screens/BMMSA-HeaderRedesign-primaryNav.jpg",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/bmmsa/screens/BMMSA-HeaderRedesign-secondaryNav.jpg",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/bmmsa/screens/bmmsa.com-iphone5-control--open.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/bmmsa/screens/bmmsa.com-iphone5-control.png",
+						"content_type": "mobile",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": "Wordpress",
+			"languages": ["PHP", "HTML", "CSS", "JavaScript"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Buy Auto Parts",
+		"url": "https://www.buyautoparts.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./buy-auto-parts/",
+		"logo": "https://www.buyautoparts.com/images/BAP-HeaderRedesign-Logo.png",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Cart Page Presentation Study",
+				"media": [
+					{
+						"graphic": "img/buy-auto-parts/cart/BAP-CartPagePresentation-variation.png",
+						"content_type": "desktop",
+						"caption": "Variation"
+					},
+					{
+						"graphic": "img/buy-auto-parts/cart/BAP-CartPagePresentation-control.png",
+						"content_type": "desktop",
+						"caption": "Control"
+					}
+				]
+			}
+		],
+		"technology": {
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Surgent",
+		"url": "https://www.surgentcpe.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./cpenow/",
+		"logo": "img/cpenow/logo.png",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Navigation Study",
+				"media": [
+					{
+						"graphic": "img/cpenow/Control.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/cpe-navigationtest-variation-updatecourses.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/variation-accounting.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/variation-ethics.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/variation-tax.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/variation-updatecourses.png",
+						"content_type": "presentation",
+						"caption": ""
+					},
+					{
+						"graphic": "img/cpenow/variation.png",
+						"content_type": "presentation",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "ePromos Promotional Products",
+		"url": "https://www.epromos.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./epromos/",
+		"logo": "img/epromos/logo.png",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Customize Artwork UI Study",
+				"media": [
+					{
+						"graphic": "img/epromos/EP-customize-desktop-control.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/epromos/EP-customize-desktop-variation-2locations.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/epromos/EP-customize-desktop-variation-contact.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/epromos/EP-customize-desktop-variation-image-text.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/epromos/EP-customize-mobile-control.png",
+						"content_type": "mobile",
+						"caption": ""
+					},
+					{
+						"graphic": "img/epromos/EP-customize-mobile-variation.png",
+						"content_type": "mobile",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Evan-Moor",
+		"url": "https://www.evan-moor.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"icon": "img/evan-moor/logo.png",
+		"folder_path": "./evan-moor/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "img/evan-moor/navigation-study/EM-Navigation-Closed.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/evan-moor/navigation-study/EM-Navigation-Desktop-Control.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/evan-moor/navigation-study/EM-Navigation-Variation-Tier-1.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/evan-moor/navigation-study/EM-Navigation-Variation-Tier-2.png",
+						"content_type": "desktop",
+						"caption": ""
+					},
+					{
+						"graphic": "img/evan-moor/navigation-study/__MACOSX/navigation-study/._mock.png",
+						"content_type": "desktop",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "filtersfast",
+		"url": "https://www.filtersfast.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./filtersfast/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"media": [
+					{
+						"graphic": "img/filtersfast/site-current.png",
+						"content_type": "desktop",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "FoodyDirect",
+		"url": "https://www.foodydirect.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./foody-direct/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Footwear etc.",
+		"url": "https://www.footwearetc.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./footwear-etc/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Product Page Buy Box Study",
+				"media": [
+					{
+						"graphic": "img/footwear-etc/hoka one challenger atr 2 grey - variation.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-hoka-one-lg.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-mbt-sport-3-lg.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-mbt-sport-3-sm.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-cropped-sm.psd",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-cropped.psd",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-cropped_0000_Layer-1.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-cropped_0001_Layer-0.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-lg.psd",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-lg_0000_Layer-1.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b-lg_0001_Layer-0.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box-womens-nb-a-b.psd",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/pdp-buy-box.psd",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/control/hoka one challenger atr 2 grey - control.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/control/hoka one challenger atr 2 grey - control.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/control/[european-womens-sizing] mbt sport 3 ping - control.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/control/[european-womens-sizing] mbt sport 3 ping - control.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/control/[shoe width] womens new balance walking shoe - control.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/control/[shoe width] womens new balance walking shoe - control.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/variation/hoka one challenger atr 2 grey - variation.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/footwear-etc/variation/hoka one challenger atr 2 grey - variation.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/variation/[european-womens-sizing] mbt sport 3 ping - variation.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/variation/[european-womens-sizing] mbt sport 3 ping - variation.png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/variation/[shoe width] womens new balance walking shoe - variation.html",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic":
+							"img/footwear-etc/variation/[shoe width] womens new balance walking shoe - variation.",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Leonisa",
+		"url": "https://www.leonisa.com/en/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./leonisa/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Net Direct Merchants",
+		"url": "https://www.netdirectmerchants.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./net-direct-merchants/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "NorthShore Care Supply",
+		"url": "https://www.northshorecare.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./north-shore-care/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Product Listing",
+				"media": [
+					{
+						"graphic": "img/north-shore-care/product-listing/mocks/combo-1 [0,0].png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/north-shore-care/product-listing/mocks/combo-2 [1,0]-modal .png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/north-shore-care/product-listing/mocks/combo-2 [1,0].png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/north-shore-care/product-listing/mocks/combo-3 [0,1].png",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/north-shore-care/product-listing/mocks/combo-4 [1,1].png",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Polynesian Cultural Center",
+		"url": "https://www.polynesia.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./polynesia/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Reading Glasses.com",
+		"url": "https://www.readingglasses.com/",
+		"display_portfolio_view": true,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./trinity-insight",
+		"logo": "img/reading-glasses/logo.svg",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "Navigation Study",
+				"media": [
+					{
+						"graphic": "img/reading-glasses/RG-GlobalStickyHeaderStudy-control.jpg",
+						"content_type": "",
+						"caption": ""
+					},
+					{
+						"graphic": "img/reading-glasses/RG-GlobalStickyHeaderStudy-variation.jpg",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Rockler Companies, Inc.",
+		"url": "http://www.rockler.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./rockler/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Schneiders ",
+		"url": "https://www.sstack.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./schneiders",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Servers Direct",
+		"url": "http://www.serversdirect.com/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./servers-direct/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "Sure Fit Inc.",
+		"url": "http://www.surefit.net/",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./surefit/",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	},
+	{
+		"name": "WebEyeCare.com",
+		"url": "https://www.webeyecare.com/Default.asp",
+		"display_portfolio_view": false,
+		"actual_employer": "Trinity Insight",
+		"year": "2016",
+		"folder_path": "./web-eye-care",
+		"projects": [
+			{
+				"header_thumbnail": "",
+				"name": "",
+				"media": [
+					{
+						"graphic": "",
+						"content_type": "",
+						"caption": ""
+					}
+				]
+			}
+		],
+		"technology": {
+			"cms": [],
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"frameworks": ["jQuery"]
+		}
+	}
+]

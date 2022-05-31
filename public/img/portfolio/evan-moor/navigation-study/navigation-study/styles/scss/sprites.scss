@@ -1,0 +1,50 @@
+$img_src : 'https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png';
+
+/*
+ * css performance ain't off the charts in this one unfortunately, but the styles are accurate to mock.
+ */
+
+.icon {
+	display: inline-block;
+	// height: 22px;
+	// width: 24px;
+	height: 24px;
+	width: 25px;
+	background-repeat: no-repeat;
+	background-position-x:0px;
+
+	&.icon-reading-foundations {
+		background: url($img_src) 2px 0px;
+		background-position-y:0;
+	}
+	&.icon-reading-comprehension {
+		background: url($img_src) -32px 2px;
+	}
+
+	&.icon-language {
+		background: url($img_src) -69px 0px;
+	}
+	&.icon-writing {
+		background: url($img_src) -106px 0px
+	}
+	&.icon-math {
+		background: url($img_src) -141px 0px;
+	}
+	&.icon-science {
+		background: url($img_src) -173px 0px;
+	}
+	&.icon-social-studies {
+		background: url($img_src) -204px 0px;
+	}
+	&.icon-teacher-resources {
+		background: url($img_src) -236px 0;
+	}
+	&.icon-parent-resources {
+		background: url($img_src) -269px 0px
+	}
+}
+.icon.icon-caret {
+	background: url($img_src) -300px -6px;
+	width: 8px;
+	height: 13px;
+}

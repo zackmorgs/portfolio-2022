@@ -1,0 +1,320 @@
+/*
+ * reset z-index of wierd popup thing
+ */
+div#ssmi_get_an_email_sidebar_image {
+  z-index: 100; }
+
+#main-nav.ti-nav li.first:hover .mega-nav-container {
+  z-index: 101; }
+
+/*
+ * Reset control content 
+ */
+#main-nav * {
+  transition: none !important; }
+
+#main-nav.ti-nav > ul {
+  margin-bottom: 0px;
+  padding-bottom: 6px;
+  display: inline-block; }
+
+#main-nav.ti-nav ul.first,
+#main-nav.ti-nav ul.first li,
+#main-nav.ti-nav ul.first,
+#main-nav.ti-nav ul.first a.long-cat {
+  height: auto; }
+
+#main-nav.ti-nav a:hover, #main-nav.ti-nav a.active {
+  filter: none !important; }
+
+#main-nav.ti-nav > ul > li {
+  position: static;
+  margin-bottom: -10px;
+  padding-bottom: 10px; }
+
+/*
+ * very specific fonts - had to fight their css on this one :/
+ */
+#main-nav.ti-nav {
+  margin-bottom: 0px; }
+  #main-nav.ti-nav ul.mega-nav-container {
+    min-width: 291px;
+    min-width: 293px;
+    opacity: 0.0;
+    visibility: visible; }
+  #main-nav.ti-nav ul.mega-nav-closed {
+    min-width: 291px;
+    min-width: 293px !important; }
+  #main-nav.ti-nav ul.mega-nav-container:hover {
+    min-width: 948px;
+    opacity: 1.0;
+    visibility: visible; }
+  #main-nav.ti-nav li.first .mega-nav-container {
+    max-height: 0;
+    overflow: hidden; }
+    #main-nav.ti-nav li.first .mega-nav-container a.mega-nav-trigger {
+      opacity: 0.0;
+      max-height: 0; }
+  #main-nav.ti-nav li.first:hover .mega-nav-container {
+    max-height: 377px; }
+    #main-nav.ti-nav li.first:hover .mega-nav-container .mega-nav-trigger {
+      opacity: 1.0;
+      max-height: 44px; }
+
+#main-nav.ti-nav {
+  z-index: 200;
+  position: static; }
+  #main-nav.ti-nav a.tabCurr {
+    position: static; }
+  #main-nav.ti-nav > ul {
+    position: relative; }
+    #main-nav.ti-nav > ul > li.first > a {
+      background: #0094c3;
+      background: -moz-linear-gradient(top, #0094c3 0, #48b5d9 70%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0094c3), color-stop(70%, #48b5d9));
+      background: -webkit-linear-gradient(top, #0094c3 0, #48b5d9 70%);
+      background: -o-linear-gradient(top, #0094c3 0, #48b5d9 70%);
+      background: -ms-linear-gradient(top, #0094c3 0, #48b5d9 70%);
+      background: linear-gradient(to bottom, #0094c3 0, #48b5d9 70%); }
+    #main-nav.ti-nav > ul > li {
+      position: static; }
+      #main-nav.ti-nav > ul > li > a {
+        background-color: RGBA(24, 86, 124, 1); }
+  #main-nav.ti-nav ul.mega-nav-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    border: 2px solid RGBA(67, 146, 198, 1);
+    background-color: #F9F9F9;
+    display: block;
+    margin-right: 0px; }
+    #main-nav.ti-nav ul.mega-nav-container > li {
+      width: 280px;
+      position: static;
+      overflow: visible;
+      display: block; }
+      #main-nav.ti-nav ul.mega-nav-container > li > a {
+        width: 100%; }
+    #main-nav.ti-nav ul.mega-nav-container > ul {
+      position: static; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger {
+      height: auto;
+      width: 100%;
+      border-right: 1px solid RGBA(208, 208, 208, 1);
+      margin: 0;
+      line-height: 1em;
+      font-size: 14px;
+      font-weight: bold;
+      text-rendering: geometricPrecision;
+      padding: 4px 0px 6px 12px;
+      display: block;
+      overflow: visible;
+      background-color: white;
+      margin-right: 0px;
+      color: #0088cc; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger:hover {
+      background-color: #F4F3F3;
+      background-color: RGBA(244, 243, 243, 1) !important; }
+      #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger:hover .mega-nav {
+        opacity: 1.0;
+        box-shadow: inset 15px 11px 128px rgba(221, 221, 221, 0.15); }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger.first {
+      padding: 6px 0px 3px 12px;
+      padding-top: 15px;
+      width: 100%; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger.all-subjects {
+      padding: 8px 0px 23px 12px;
+      width: 100%; }
+      #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger.all-subjects .sub-nav-title-container {
+        margin-left: 2px; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger .sub-nav-title {
+      font-size: 14px;
+      vertical-align: super;
+      padding-left: 8px; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger .icon.icon-caret {
+      float: right;
+      margin-right: 14px;
+      margin-top: 6px;
+      float: right;
+      margin-right: 14px;
+      margin-top: 6px;
+      margin-left: 6px; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger .mega-nav {
+      display: none;
+      opacity: 0.0;
+      transition: opacity .3s ease-in-out !important; }
+    #main-nav.ti-nav ul.mega-nav-container a.mega-nav-trigger:hover .mega-nav {
+      opacity: 1.0;
+      display: block;
+      position: absolute;
+      width: 100%;
+      max-width: 631px;
+      top: 0px;
+      right: 0;
+      background-color: #F9F9F9;
+      padding-left: 24px;
+      height: 100%; }
+    #main-nav.ti-nav ul.mega-nav-container .nav-group-title {
+      background-color: transparent;
+      font-weight: 600;
+      vertical-align: baseline;
+      height: auto;
+      width: auto;
+      display: block;
+      padding: 8px 0px 0px 0px;
+      margin: 0px 0px 16px 6px;
+      border-bottom: 1px solid #f8b456;
+      max-width: 95%; }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group-title h3 {
+        font-size: 24px;
+        display: inline-block;
+        font-weight: 600;
+        color: #0088cc; }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group-title small {
+        display: inline;
+        color: #0088CC;
+        font-weight: 100;
+        font-size: 14px;
+        text-transform: lowercase;
+        margin-left: 3px;
+        vertical-align: baseline; }
+        #main-nav.ti-nav ul.mega-nav-container .nav-group-title small i.icon.icon-caret {
+          display: inline-block;
+          float: none; }
+    #main-nav.ti-nav ul.mega-nav-container .nav-group {
+      width: 31%;
+      display: block;
+      min-height: 280px;
+      float: left;
+      padding: 10px 7px 0px 7px; }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group strong {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        color: RGBA(111, 101, 71, 1); }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group .items {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        visibility: visible;
+        position: static;
+        opacity: 1.0;
+        top: initial;
+        width: auto;
+        display: block; }
+        #main-nav.ti-nav ul.mega-nav-container .nav-group .items .item {
+          width: auto; }
+          #main-nav.ti-nav ul.mega-nav-container .nav-group .items .item a {
+            color: RGBA(0, 136, 204, 1);
+            background-color: initial; }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-grade .item {
+        float: left; }
+        #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-grade .item a {
+          color: black;
+          border: 1px solid RGBA(157, 156, 156, 1);
+          /* max-width: 78px; */
+          display: inline-block;
+          margin-top: 8px;
+          min-width: 58px;
+          padding: 8px 10px 10px 10px;
+          text-align: center;
+          margin-right: 10px;
+          border-radius: 2px;
+          color: RGBA(102, 102, 102, 1);
+          background-color: white; }
+          #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-grade .item a:hover {
+            color: RGBA(102, 102, 102, 1);
+            border: 1px solid #f8b456; }
+      #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-topic .items .item a, #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-format .items .item a {
+        color: RGBA(0, 136, 204, 0.75);
+        font-size: 14px;
+        font-weight: 300;
+        background-color: transparent;
+        padding: 6px 2px 2px 2px;
+        display: inline-block;
+        transition: color .1s ease-in-out !important; }
+        #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-topic .items .item a:hover, #main-nav.ti-nav ul.mega-nav-container .nav-group.nav-group-format .items .item a:hover {
+          color: RGBA(0, 136, 204, 1); }
+  #main-nav.ti-nav li:hover > .mega-nav-container {
+    opacity: 1.0;
+    background-color: #F9F9F9;
+    visibility: visible; }
+
+/*
+ * css performance ain't off the charts in this one unfortunately, but the styles are accurate to mock.
+ */
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 25px;
+  background-repeat: no-repeat;
+  background-position-x: 0px; }
+  .icon.icon-reading-foundations {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") 2px 0px;
+    background-position-y: 0; }
+  .icon.icon-reading-comprehension {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -32px 2px; }
+  .icon.icon-language {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -69px 0px; }
+  .icon.icon-writing {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -106px 0px; }
+  .icon.icon-math {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -141px 0px; }
+  .icon.icon-science {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -173px 0px; }
+  .icon.icon-social-studies {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -204px 0px; }
+  .icon.icon-teacher-resources {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -236px 0; }
+  .icon.icon-parent-resources {
+    background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -269px 0px; }
+
+.icon.icon-caret {
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Sprite.png") -300px -6px;
+  width: 8px;
+  height: 13px; }
+
+.mega-nav-trigger .mega-nav .icon.icon-nav-bg {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  background: url("https://s3.amazonaws.com/clientinstalls/EvanMoor/EM-Navigation-Study-Grey-Icon-Sprite.png"); }
+.mega-nav-trigger[href*="/c/75/reading-foundations"] .mega-nav .icon.icon-nav-bg {
+  background-position: 0 -161px;
+  width: 122px;
+  height: 134px; }
+.mega-nav-trigger[href*="/c/86/reading-comprehension"] .mega-nav .icon.icon-nav-bg {
+  background-position: -150px -166px;
+  width: 160px;
+  height: 131px; }
+.mega-nav-trigger[href*="/c/98/language"] .mega-nav .icon.icon-nav-bg {
+  background-position: -433px 0;
+  width: 179px;
+  height: 141px; }
+.mega-nav-trigger[href*="/c/108/writing"] .mega-nav .icon.icon-nav-bg {
+  background-position: -366px -168px;
+  width: 147px;
+  height: 135px; }
+.mega-nav-trigger[href*="/c/117/math"] .mega-nav .icon.icon-nav-bg {
+  background-position: -637px -6px;
+  width: 136px;
+  height: 136px; }
+.mega-nav-trigger[href*="/c/127/science"] .mega-nav .icon.icon-nav-bg {
+  background-position: -169px -3px;
+  width: 127px;
+  height: 134px; }
+.mega-nav-trigger[href*="/c/193/social-studies"] .mega-nav .icon.icon-nav-bg {
+  background-position: -312px -2px;
+  width: 104px;
+  height: 137px; }
+.mega-nav-trigger[href*="/c/136/teacher-resources"] .mega-nav .icon.icon-nav-bg {
+  background-position: -541px -162px;
+  width: 137px;
+  height: 137px; }
+.mega-nav-trigger[href*="/c/211/parent-resources"] .mega-nav .icon.icon-nav-bg {
+  background-position: -3px -3px;
+  width: 145px;
+  height: 137px; }
+.mega-nav-trigger .mega-nav .icon {
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */
